@@ -1,0 +1,35 @@
+anyio==4.14.1
+anything==0.2.1
+brotli==1.2.0
+catboost==1.2.10
+certifi==2026.6.17
+charset-normalizer==3.4.9
+click==8.4.2
+colorama==0.4.6
+ddgs==9.14.4
+fake-useragent==2.2.0
+feedparser @ file:///C:/Users/task_177209721683125/croot/feedparser_1772097284088/work
+graphviz==0.21
+h11==0.16.0
+h2==4.3.0
+hpack==4.2.0
+httpcore==1.0.9
+httpx==0.28.1
+hyperframe==6.1.0
+idna==3.18
+lightgbm==4.6.0
+lxml==6.1.1
+packaging==26.0
+primp==1.3.1
+PuLP==3.3.0
+python-dateutil==2.9.0.post0
+requests==2.34.2
+setuptools==82.0.1
+sgmllib3k @ file:///Users/ktietz/demo/mc3/conda-bld/sgmllib3k_1630650258356/work
+six==1.17.0
+socksio==1.0.0
+typing_extensions==4.16.0
+ultimate-sitemap-parser==1.8.1
+urllib3==2.7.0
+wheel==0.47.0
+xgboost==3.2.0
