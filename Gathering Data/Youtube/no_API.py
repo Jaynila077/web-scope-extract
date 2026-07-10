@@ -82,20 +82,22 @@ def search_youtube(query: str, max_results: int = 5) -> list[VideoResult]:
 def fetch_transcript(video_id: str, languages: list[str] = None) -> str:
     """
     Fetch and flatten the transcript for a given video ID.
-    Raises the underlying youtube_transcript_api exceptions on failure.
+    Uses the v1.0+ instance-based API.
     """
     if languages is None:
         languages = ["en"]
 
-    try:
-        transcript_list = YouTubeTranscriptApi.get_transcript(
-            video_id, languages=languages
-        )
-    except NoTranscriptFound:
-        # Fall back to auto-generated / any available language
-        transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+    ytt_api = YouTubeTranscriptApi()
 
-    text = " ".join(chunk["text"] for chunk in transcript_list)
+    try:
+        fetched_transcript = ytt_api.fetch(video_id, languages=languages)
+    except NoTranscriptFound:
+        # Fall back to whatever transcript is available, in any language
+        transcript_list = ytt_api.list(video_id)
+        transcript = next(iter(transcript_list))
+        fetched_transcript = transcript.fetch()
+
+    text = " ".join(snippet.text for snippet in fetched_transcript)
     return text
 
 
@@ -124,49 +126,22 @@ def run_pipeline(
     return videos
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Search YouTube and fetch transcripts for the results."
-    )
-    parser.add_argument("query", help="Search query")
-    parser.add_argument(
-        "--max-results", type=int, default=5, help="Number of videos to fetch (default: 5)"
-    )
-    parser.add_argument(
-        "--languages",
-        nargs="+",
-        default=["en"],
-        help="Preferred transcript language codes, in priority order (default: en)",
-    )
-    parser.add_argument(
-        "--output",
-        default=None,
-        help="Optional path to save results as JSON",
-    )
-    args = parser.parse_args()
-
-    results = run_pipeline(
-        args.query, max_results=args.max_results, languages=args.languages
-    )
-
-    output_data = [asdict(r) for r in results]
-
-    if args.output:
-        with open(args.output, "w", encoding="utf-8") as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
-        print(f"\nSaved results to {args.output}", file=sys.stderr)
-    else:
-        for video in results:
-            print("\n" + "=" * 80)
-            print(f"Title:   {video.title}")
-            print(f"URL:     {video.url}")
-            print(f"Channel: {video.channel}")
-            if video.transcript:
-                preview = video.transcript[:500]
-                print(f"\nTranscript preview:\n{preview}...")
-            else:
-                print(f"\nTranscript unavailable: {video.transcript_error}")
-
-
 if __name__ == "__main__":
-    main()
+    results = run_pipeline(
+        query="how does photosynthesis work",
+        max_results=3,
+        languages=["en"],
+    )
+ 
+    for video in results:
+        print("\n" + "=" * 80)
+        print(f"Title:   {video.title}")
+        print(f"URL:     {video.url}")
+        print(f"Channel: {video.channel}")
+        if video.transcript:
+            print(f"\nTranscript preview:\n{video.transcript[:500]}...")
+        else:
+            print(f"\nTranscript unavailable: {video.transcript_error}")
+ 
+
+
