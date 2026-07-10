@@ -21,11 +21,9 @@ Usage:
     python youtube_pipeline_api.py "your search query" --api-key YOUR_KEY
 """
 
-import argparse
-import json
 import os
 import sys
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 from typing import Optional
 
 from googleapiclient.discovery import build
