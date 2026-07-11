@@ -8,7 +8,7 @@ click==8.4.2
 colorama==0.4.6
 ddgs==9.14.4
 fake-useragent==2.2.0
-feedparser @ file:///C:/Users/task_177209721683125/croot/feedparser_1772097284088/work
+feedparser
 graphviz==0.21
 h11==0.16.0
 h2==4.3.0
@@ -25,7 +25,7 @@ PuLP==3.3.0
 python-dateutil==2.9.0.post0
 requests==2.34.2
 setuptools==82.0.1
-sgmllib3k @ file:///Users/ktietz/demo/mc3/conda-bld/sgmllib3k_1630650258356/work
+sgmllib3k
 six==1.17.0
 socksio==1.0.0
 typing_extensions==4.16.0
