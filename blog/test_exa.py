@@ -3,7 +3,7 @@ import os
 
 def neural_scout_pipeline(semantic_query, max_links=2):
     
-    EXA_API_KEY = "850e943b-723d-4a6b-8afc-f1c277619b01" 
+    EXA_API_KEY = "add api key to test" 
     exa = Exa(api_key=EXA_API_KEY)
     
     try:
