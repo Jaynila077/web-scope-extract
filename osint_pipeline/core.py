@@ -24,7 +24,9 @@ class UnifiedResult:
     author: Optional[str] = None
     created_at: Optional[str] = None    # ISO 8601 string, kept as str for JSON-friendliness
     score: Optional[int] = None         # upvotes/stars/points, whatever the platform calls it
-    text: Optional[str] = None          # body/description/selftext
+    text: Optional[str] = None          # body/description/selftext -- short, from the search stage
+    full_text: Optional[str] = None     # populated by enrich.py, only for selected/enriched results
+    enriched: bool = False              # True once full_text has been successfully fetched
     extra: dict = field(default_factory=dict)   # anything platform-specific worth keeping
     fetch_error: Optional[str] = None
 

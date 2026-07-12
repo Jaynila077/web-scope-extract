@@ -162,8 +162,47 @@ def fetch_full_text(result: UnifiedResult, char_limit: int = DEFAULT_CHAR_LIMIT)
     return fetcher(result, char_limit)
 
 
+def enrich_batch(
+    results: list[UnifiedResult],
+    char_limit: int = DEFAULT_CHAR_LIMIT,
+    max_workers: int = 5,
+) -> list[UnifiedResult]:
+    """
+    Run fetch_full_text concurrently across a mixed list of selected results
+    -- can span any combination of sources at once (e.g. 3 Reddit posts,
+    2 GitHub repos, 1 YouTube video all in the same call).
+
+    Mutates and returns the same result objects: sets .full_text and
+    .enriched = True on success, or .fetch_error on failure (leaving
+    .enriched = False so callers can tell enrichment didn't take).
+
+    A single failure never aborts the batch -- errors are captured per-item.
+    """
+    import concurrent.futures
+
+    def _enrich_one(result: UnifiedResult) -> UnifiedResult:
+        try:
+            result.full_text = fetch_full_text(result, char_limit=char_limit)
+            result.enriched = True
+        except Exception as e:
+            result.fetch_error = f"enrich failed: {e}"
+            result.enriched = False
+        return result
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
+        enriched = list(pool.map(_enrich_one, results))
+
+    return enriched
+
+
 if __name__ == "__main__":
-    # Quick manual test: run.py first, then point this at one result to confirm it works
+    # Manual test harness.
+    #
+    # Single item:
+    #   py enrich.py results.json github 0
+    #
+    # Batch (multiple source:index pairs, space-separated):
+    #   py enrich.py results.json --batch github:0 reddit:1 youtube:0
     import json
     import sys
     from pathlib import Path
@@ -171,13 +210,32 @@ if __name__ == "__main__":
     results_path = Path(sys.argv[1] if len(sys.argv) > 1 else "results.json")
     data = json.loads(results_path.read_text(encoding="utf-8"))
 
-    source = sys.argv[2] if len(sys.argv) > 2 else next(iter(data))
-    index = int(sys.argv[3]) if len(sys.argv) > 3 else 0
+    if len(sys.argv) > 2 and sys.argv[2] == "--batch":
+        pairs = sys.argv[3:]
+        selected = []
+        for pair in pairs:
+            source, idx = pair.split(":")
+            item = data[source][int(idx)]
+            selected.append(UnifiedResult(**item))
 
-    item = data[source][index]
-    result = UnifiedResult(**item)
+        print(f"Enriching {len(selected)} items across sources: {[r.source for r in selected]}")
+        enriched = enrich_batch(selected, char_limit=1500)
 
-    print(f"Fetching full text for: {result.title} ({result.source})")
-    full = fetch_full_text(result, char_limit=1500)
-    print("\n--- FULL TEXT (truncated to 1500 chars) ---\n")
-    print(full)
+        for r in enriched:
+            print("\n" + "=" * 80)
+            print(f"[{r.source}] {r.title}")
+            if r.enriched:
+                print(f"\n{r.full_text}")
+            else:
+                print(f"\nFAILED: {r.fetch_error}")
+    else:
+        source = sys.argv[2] if len(sys.argv) > 2 else next(iter(data))
+        index = int(sys.argv[3]) if len(sys.argv) > 3 else 0
+
+        item = data[source][index]
+        result = UnifiedResult(**item)
+
+        print(f"Fetching full text for: {result.title} ({result.source})")
+        full = fetch_full_text(result, char_limit=1500)
+        print("\n--- FULL TEXT (truncated to 1500 chars) ---\n")
+        print(full)
