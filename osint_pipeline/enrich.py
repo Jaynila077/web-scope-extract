@@ -12,6 +12,7 @@ Usage:
 
 from __future__ import annotations
 
+import html
 import re
 import requests
 
@@ -21,10 +22,11 @@ DEFAULT_TIMEOUT = 10.0
 DEFAULT_CHAR_LIMIT = 3000  # generous but bounded, good for testing full-fetch without runaway payloads
 
 
-def _strip_html(html: str) -> str:
-    text = re.sub(r"<script.*?</script>", "", html, flags=re.DOTALL | re.IGNORECASE)
+def _strip_html(html_text: str) -> str:
+    text = re.sub(r"<script.*?</script>", "", html_text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<style.*?</style>", "", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)  # decode &quot; &lt; &amp; etc. back to real characters
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -77,12 +79,21 @@ def _fetch_wikipedia_full(result: UnifiedResult, char_limit: int) -> str:
 
 
 def _fetch_github_readme(result: UnifiedResult, char_limit: int) -> str:
-    """README content via the GitHub API (returns base64, needs decoding)."""
+    """
+    README content via the GitHub API (returns base64, needs decoding).
+    Falls back to the repo description if no README exists (404) --
+    not every repo has one, and a bare description is still better than
+    a hard failure with zero content.
+    """
     import base64
     full_name = result.title  # we stored "owner/repo" as title
     api_url = f"https://api.github.com/repos/{full_name}/readme"
     headers = {"Accept": "application/vnd.github+json"}
     resp = requests.get(api_url, headers=headers, timeout=DEFAULT_TIMEOUT)
+
+    if resp.status_code == 404:
+        return (result.text or "(no README or description available)")[:char_limit]
+
     resp.raise_for_status()
     data = resp.json()
     content = base64.b64decode(data.get("content", "")).decode("utf-8", errors="replace")

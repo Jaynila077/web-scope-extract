@@ -101,7 +101,7 @@ class StackExchangeAdapter(SourceAdapter):
                 UnifiedResult(
                     source=self.name,
                     result_id=str(item.get("question_id")),
-                    title=item.get("title", ""),
+                    title=_strip_html(item.get("title", "")),
                     url=item.get("link", ""),
                     author=item.get("owner", {}).get("display_name"),
                     created_at=str(item.get("creation_date")),
@@ -163,8 +163,10 @@ class WikipediaAdapter(SourceAdapter):
 
 
 def _strip_html(s: str) -> str:
+    import html
     import re
-    return re.sub(r"<[^>]+>", "", s)
+    text = re.sub(r"<[^>]+>", "", s)
+    return html.unescape(text)
 
 
 # ---------------------------------------------------------------------------
