@@ -315,6 +315,12 @@ if __name__ == "__main__":
     #
     # Batch (multiple source:index pairs, space-separated):
     #   py enrich.py results.json --batch github:0 reddit:1 youtube:0
+    #
+    # Every result from one source:
+    #   py enrich.py results.json --source github
+    #
+    # Every result from every source:
+    #   py enrich.py results.json --all
     import json
     import sys
     from pathlib import Path
@@ -322,15 +328,31 @@ if __name__ == "__main__":
     results_path = Path(sys.argv[1] if len(sys.argv) > 1 else "results.json")
     data = json.loads(results_path.read_text(encoding="utf-8"))
 
-    if len(sys.argv) > 2 and sys.argv[2] == "--batch":
-        pairs = sys.argv[3:]
-        selected = []
-        for pair in pairs:
-            source, idx = pair.split(":")
-            item = data[source][int(idx)]
-            selected.append(UnifiedResult(**item))
+    mode = sys.argv[2] if len(sys.argv) > 2 else None
 
-        print(f"Enriching {len(selected)} items across sources: {[r.source for r in selected]}")
+    if mode in ("--batch", "--source", "--all"):
+        if mode == "--batch":
+            pairs = sys.argv[3:]
+            selected = []
+            for pair in pairs:
+                source, idx = pair.split(":")
+                item = data[source][int(idx)]
+                selected.append(UnifiedResult(**item))
+            print(f"Enriching {len(selected)} items across sources: {[r.source for r in selected]}")
+
+        elif mode == "--source":
+            source = sys.argv[3]
+            selected = [UnifiedResult(**item) for item in data.get(source, [])]
+            print(f"Enriching {len(selected)} items from source: {source}")
+
+        else:  # --all
+            selected = [
+                UnifiedResult(**item)
+                for source_items in data.values()
+                for item in source_items
+            ]
+            print(f"Enriching {len(selected)} items across all {len(data)} sources")
+
         enriched = enrich_batch(selected, char_limit=1500)
 
         for r in enriched:
@@ -341,7 +363,7 @@ if __name__ == "__main__":
             else:
                 print(f"\nFAILED: {r.fetch_error}")
     else:
-        source = sys.argv[2] if len(sys.argv) > 2 else next(iter(data))
+        source = mode if mode else next(iter(data))
         index = int(sys.argv[3]) if len(sys.argv) > 3 else 0
 
         item = data[source][index]

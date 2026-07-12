@@ -1,21 +1,146 @@
 {
-  "bluesky": [
+  "youtube": [
     {
-      "source": "bluesky",
-      "result_id": "",
-      "title": "",
-      "url": "",
-      "author": null,
-      "created_at": null,
+      "source": "youtube",
+      "result_id": "uNcJe3JawxY",
+      "title": "Should you still learn Python in 2026?",
+      "url": "https://www.youtube.com/watch?v=uNcJe3JawxY",
+      "author": "Indently",
+      "created_at": "2026-06-09T13:00:24Z",
       "score": null,
-      "text": null,
+      "text": "This video was sponsored by Zed, the next-gen code editor: ▷ Try Zed for free: http://zed.dev/download In today's video I'm going ...",
       "full_text": null,
       "enriched": false,
       "extra": {},
-      "fetch_error": "public endpoint failed (403 Client Error: Forbidden for url: https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=python+in+2026&limit=10) and no BLUESKY_HANDLE/APP_PASSWORD set for authed fallback"
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "8bZ6xSFTdUw",
+      "title": "How I Would Learn Python in 2026 (if I started over)",
+      "url": "https://www.youtube.com/watch?v=8bZ6xSFTdUw",
+      "author": "Anudeep Sharma",
+      "created_at": "2026-02-02T03:53:11Z",
+      "score": null,
+      "text": "If I had to start learning Python from scratch in 2026, this is exactly what I'd do. This isn't just another \"learn Python\" video — it's a ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "DmIZcpobnoU",
+      "title": "Python Roadmap 2026 + 5 Insane Projects to Get Hired (One Shot Course)",
+      "url": "https://www.youtube.com/watch?v=DmIZcpobnoU",
+      "author": "Saumya Singh",
+      "created_at": "2026-07-08T00:51:17Z",
+      "score": null,
+      "text": "Learning Python doesn't have to be confusing. In this video, I'll guide you through the complete Python Roadmap for 2026 while ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "j_JuhAWlEaI",
+      "title": "Python Tutorial for Beginners 2026",
+      "url": "https://www.youtube.com/watch?v=j_JuhAWlEaI",
+      "author": "Telusko",
+      "created_at": "2026-03-02T08:56:53Z",
+      "score": null,
+      "text": "Master Python in One Video: From Beginner to Advanced* Ready to master Python from scratch? Whether you're a complete ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "S5tOMUCvPFA",
+      "title": "How I would learn Python programming FAST (If I could start over)",
+      "url": "https://www.youtube.com/watch?v=S5tOMUCvPFA",
+      "author": "Tech With Tim",
+      "created_at": "2026-05-23T13:00:36Z",
+      "score": null,
+      "text": "The best beginner-friendly Python resources I recommend: Python Programming Fundamentals Track (Datacamp) ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "N8hMwzpZXq8",
+      "title": "How To Learn Python in 2026 (For AI Engineering)",
+      "url": "https://www.youtube.com/watch?v=N8hMwzpZXq8",
+      "author": "CodeHead",
+      "created_at": "2026-07-06T15:00:02Z",
+      "score": null,
+      "text": "Learn to code faster with Scrimba from Python to AI (SAVE 20% on Pro) https://scrimba.com/courses:free?via=codehead Get ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "otBkgSZr0no",
+      "title": "The Only Python You Need to Learn for AI in 2026",
+      "url": "https://www.youtube.com/watch?v=otBkgSZr0no",
+      "author": "Marina Wyss - AI & Machine Learning",
+      "created_at": "2026-06-16T14:00:02Z",
+      "score": null,
+      "text": "Check Out Scrimba's New Intro to Python Course: https://scrimba.com/learn-python-c04n8v7vf9?via=MarinaWyss It's currently free ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "mC4nyib2sfg",
+      "title": "How I Would Learn Python FAST (if I could start over)",
+      "url": "https://www.youtube.com/watch?v=mC4nyib2sfg",
+      "author": "Sajjaad Khader",
+      "created_at": "2025-11-19T22:01:02Z",
+      "score": null,
+      "text": "If I had to learn Python again from scratch.. and learn it FAST - this is exactly how I'd do it. After teaching myself Python in just two ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "q2-pnQffZik",
+      "title": "Learn Python for FREE in 2025",
+      "url": "https://www.youtube.com/watch?v=q2-pnQffZik",
+      "author": "Sajjaad Khader",
+      "created_at": "2024-12-31T02:30:33Z",
+      "score": null,
+      "text": "Learn Python for FREE in 2025 #coding #compsci #python #fyp Source: TikTok (individualkex)",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "qpf_qKMqcUc",
+      "title": "How To Approach Python With Vibe Coding In 2026",
+      "url": "https://www.youtube.com/watch?v=qpf_qKMqcUc",
+      "author": "Krish Naik",
+      "created_at": "2025-12-07T08:13:00Z",
+      "score": null,
+      "text": "Pythopn 2026 playlist: https://www.youtube.com/playlist?list=PLZoTAELRMXVM62BnrED5aQdPpVGuSKdT4 Super excited to ...",
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": null
     }
   ],
-  "mastodon": [],
   "stackexchange": [
     {
       "source": "stackexchange",
@@ -234,164 +359,6 @@
           "python-3.x"
         ]
       },
-      "fetch_error": null
-    }
-  ],
-  "reddit": [
-    {
-      "source": "reddit",
-      "result_id": "",
-      "title": "",
-      "url": "",
-      "author": null,
-      "created_at": null,
-      "score": null,
-      "text": null,
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=python+in+2026&limit=10&sort=relevance"
-    }
-  ],
-  "youtube": [
-    {
-      "source": "youtube",
-      "result_id": "uNcJe3JawxY",
-      "title": "Should you still learn Python in 2026?",
-      "url": "https://www.youtube.com/watch?v=uNcJe3JawxY",
-      "author": "Indently",
-      "created_at": "2026-06-09T13:00:24Z",
-      "score": null,
-      "text": "This video was sponsored by Zed, the next-gen code editor: ▷ Try Zed for free: http://zed.dev/download In today's video I'm going ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "8bZ6xSFTdUw",
-      "title": "How I Would Learn Python in 2026 (if I started over)",
-      "url": "https://www.youtube.com/watch?v=8bZ6xSFTdUw",
-      "author": "Anudeep Sharma",
-      "created_at": "2026-02-02T03:53:11Z",
-      "score": null,
-      "text": "If I had to start learning Python from scratch in 2026, this is exactly what I'd do. This isn't just another \"learn Python\" video — it's a ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "DmIZcpobnoU",
-      "title": "Python Roadmap 2026 + 5 Insane Projects to Get Hired (One Shot Course)",
-      "url": "https://www.youtube.com/watch?v=DmIZcpobnoU",
-      "author": "Saumya Singh",
-      "created_at": "2026-07-08T00:51:17Z",
-      "score": null,
-      "text": "Learning Python doesn't have to be confusing. In this video, I'll guide you through the complete Python Roadmap for 2026 while ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "j_JuhAWlEaI",
-      "title": "Python Tutorial for Beginners 2026",
-      "url": "https://www.youtube.com/watch?v=j_JuhAWlEaI",
-      "author": "Telusko",
-      "created_at": "2026-03-02T08:56:53Z",
-      "score": null,
-      "text": "Master Python in One Video: From Beginner to Advanced* Ready to master Python from scratch? Whether you're a complete ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "S5tOMUCvPFA",
-      "title": "How I would learn Python programming FAST (If I could start over)",
-      "url": "https://www.youtube.com/watch?v=S5tOMUCvPFA",
-      "author": "Tech With Tim",
-      "created_at": "2026-05-23T13:00:36Z",
-      "score": null,
-      "text": "The best beginner-friendly Python resources I recommend: Python Programming Fundamentals Track (Datacamp) ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "N8hMwzpZXq8",
-      "title": "How To Learn Python in 2026 (For AI Engineering)",
-      "url": "https://www.youtube.com/watch?v=N8hMwzpZXq8",
-      "author": "CodeHead",
-      "created_at": "2026-07-06T15:00:02Z",
-      "score": null,
-      "text": "Learn to code faster with Scrimba from Python to AI (SAVE 20% on Pro) https://scrimba.com/courses:free?via=codehead Get ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "otBkgSZr0no",
-      "title": "The Only Python You Need to Learn for AI in 2026",
-      "url": "https://www.youtube.com/watch?v=otBkgSZr0no",
-      "author": "Marina Wyss - AI & Machine Learning",
-      "created_at": "2026-06-16T14:00:02Z",
-      "score": null,
-      "text": "Check Out Scrimba's New Intro to Python Course: https://scrimba.com/learn-python-c04n8v7vf9?via=MarinaWyss It's currently free ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "mC4nyib2sfg",
-      "title": "How I Would Learn Python FAST (if I could start over)",
-      "url": "https://www.youtube.com/watch?v=mC4nyib2sfg",
-      "author": "Sajjaad Khader",
-      "created_at": "2025-11-19T22:01:02Z",
-      "score": null,
-      "text": "If I had to learn Python again from scratch.. and learn it FAST - this is exactly how I'd do it. After teaching myself Python in just two ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "q2-pnQffZik",
-      "title": "Learn Python for FREE in 2025",
-      "url": "https://www.youtube.com/watch?v=q2-pnQffZik",
-      "author": "Sajjaad Khader",
-      "created_at": "2024-12-31T02:30:33Z",
-      "score": null,
-      "text": "Learn Python for FREE in 2025 #coding #compsci #python #fyp Source: TikTok (individualkex)",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "qpf_qKMqcUc",
-      "title": "How To Approach Python With Vibe Coding In 2026",
-      "url": "https://www.youtube.com/watch?v=qpf_qKMqcUc",
-      "author": "Krish Naik",
-      "created_at": "2025-12-07T08:13:00Z",
-      "score": null,
-      "text": "Pythopn 2026 playlist: https://www.youtube.com/playlist?list=PLZoTAELRMXVM62BnrED5aQdPpVGuSKdT4 Super excited to ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
       "fetch_error": null
     }
   ],
@@ -729,6 +696,23 @@
       "fetch_error": null
     }
   ],
+  "mastodon": [],
+  "reddit": [
+    {
+      "source": "reddit",
+      "result_id": "",
+      "title": "",
+      "url": "",
+      "author": null,
+      "created_at": null,
+      "score": null,
+      "text": null,
+      "full_text": null,
+      "enriched": false,
+      "extra": {},
+      "fetch_error": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=python+in+2026&limit=10&sort=relevance"
+    }
+  ],
   "wikipedia": [
     {
       "source": "wikipedia",
@@ -764,22 +748,6 @@
     },
     {
       "source": "wikipedia",
-      "result_id": "696712",
-      "title": "Python Software Foundation",
-      "url": "https://en.wikipedia.org/wiki/Python_Software_Foundation",
-      "author": null,
-      "created_at": "2026-06-25T10:23:30Z",
-      "score": null,
-      "text": "The Python Software Foundation (PSF) is an American nonprofit organization devoted to the Python programming language, launched on March 6, 2001. The mission",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 841
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
       "result_id": "18942",
       "title": "Monty Python",
       "url": "https://en.wikipedia.org/wiki/Monty_Python",
@@ -791,6 +759,22 @@
       "enriched": false,
       "extra": {
         "wordcount": 19417
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "696712",
+      "title": "Python Software Foundation",
+      "url": "https://en.wikipedia.org/wiki/Python_Software_Foundation",
+      "author": null,
+      "created_at": "2026-06-25T10:23:30Z",
+      "score": null,
+      "text": "The Python Software Foundation (PSF) is an American nonprofit organization devoted to the Python programming language, launched on March 6, 2001. The mission",
+      "full_text": null,
+      "enriched": false,
+      "extra": {
+        "wordcount": 841
       },
       "fetch_error": null
     },

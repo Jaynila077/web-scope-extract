@@ -648,7 +648,7 @@ ALL_ADAPTERS = {
     "mastodon": MastodonAdapter,
     "reddit": RedditAdapter,
     "youtube": YouTubeAdapter,
-    "bluesky": BlueskyAdapter,
+    # "bluesky": BlueskyAdapter,
     "lemmy": LemmyAdapter,
     "tumblr": TumblrAdapter,
     "vk": VKAdapter,
