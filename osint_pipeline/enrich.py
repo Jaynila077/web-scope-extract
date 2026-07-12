@@ -212,6 +212,42 @@ def _fetch_lemmy_full(result: UnifiedResult, char_limit: int) -> str:
     return "\n---\n".join(parts)[:char_limit]
 
 
+def _fetch_tumblr_full(result: UnifiedResult, char_limit: int) -> str:
+    """
+    Fetch the full post via Tumblr's post-detail endpoint (npf_format for
+    clean text extraction across post types: text, photo captions, etc.)
+    """
+    import os
+    api_key = os.environ.get("TUMBLR_API_KEY")
+    if not api_key:
+        return (result.text or "")[:char_limit]
+
+    blog_name = result.author
+    post_id = result.result_id
+    if not blog_name or not post_id:
+        return (result.text or "")[:char_limit]
+
+    api_url = f"https://api.tumblr.com/v2/blog/{blog_name}.tumblr.com/posts"
+    params = {"id": post_id, "api_key": api_key, "reblog_info": "false"}
+
+    resp = requests.get(api_url, params=params, timeout=DEFAULT_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+
+    posts = data.get("response", {}).get("posts", [])
+    if not posts:
+        return (result.text or "")[:char_limit]
+
+    post = posts[0]
+    body = post.get("body") or post.get("caption") or post.get("summary") or ""
+    return _strip_html(body)[:char_limit]
+
+
+def _fetch_vk_full(result: UnifiedResult, char_limit: int) -> str:
+    """VK post text is already complete from the search stage -- just re-truncate."""
+    return (result.text or "")[:char_limit]
+
+
 _FETCHERS = {
     "reddit": _fetch_reddit_full,
     "wikipedia": _fetch_wikipedia_full,
@@ -222,6 +258,8 @@ _FETCHERS = {
     "youtube": _fetch_youtube_full,
     "bluesky": _fetch_bluesky_full,
     "lemmy": _fetch_lemmy_full,
+    "tumblr": _fetch_tumblr_full,
+    "vk": _fetch_vk_full,
 }
 
 

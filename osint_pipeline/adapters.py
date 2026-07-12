@@ -520,6 +520,126 @@ class LemmyAdapter(SourceAdapter):
         return results
 
 
+# ---------------------------------------------------------------------------
+# Tumblr -- free API key via tumblr.com/developer. No full-text search API;
+# the standard free way to search is by tag.
+# ---------------------------------------------------------------------------
+
+class TumblrAdapter(SourceAdapter):
+    name = "tumblr"
+
+    SEARCH_URL = "https://api.tumblr.com/v2/tagged"
+
+    def __init__(self):
+        self.api_key = os.environ.get("TUMBLR_API_KEY")
+
+    def is_configured(self) -> bool:
+        return bool(self.api_key)
+
+    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
+        if not self.api_key:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="",
+                                   fetch_error="TUMBLR_API_KEY not set")]
+
+        # Tumblr's free API searches by tag, not free text -- collapse the
+        # query to a single tag-shaped string (spaces -> nothing, as tags
+        # on Tumblr are conventionally single words or hyphenated).
+        tag = query.strip().replace(" ", "")
+        params = {"tag": tag, "api_key": self.api_key, "limit": limit}
+
+        try:
+            resp = requests.get(self.SEARCH_URL, params=params, timeout=DEFAULT_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
+
+        results = []
+        for post in data.get("response", []):
+            body = post.get("summary") or post.get("caption") or ""
+            results.append(
+                UnifiedResult(
+                    source=self.name,
+                    result_id=str(post.get("id")),
+                    title=_strip_html(body)[:80] or "(untitled post)",
+                    url=post.get("post_url", ""),
+                    author=post.get("blog_name"),
+                    created_at=post.get("date"),
+                    score=post.get("note_count"),
+                    text=_strip_html(body),
+                    extra={"tags": post.get("tags"), "type": post.get("type")},
+                )
+            )
+        return results
+
+
+# ---------------------------------------------------------------------------
+# VK (VKontakte) -- free API, needs a user access token (register an app at
+# vk.com/apps?act=manage, generate a token via the Implicit Flow with the
+# 'wall' scope). Adds language/geographic coverage the rest of the sources
+# lack (skews Russian/Eastern European).
+# ---------------------------------------------------------------------------
+
+class VKAdapter(SourceAdapter):
+    name = "vk"
+
+    SEARCH_URL = "https://api.vk.com/method/newsfeed.search"
+    API_VERSION = "5.199"
+
+    def __init__(self):
+        self.access_token = os.environ.get("VK_ACCESS_TOKEN")
+
+    def is_configured(self) -> bool:
+        return bool(self.access_token)
+
+    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
+        if not self.access_token:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="",
+                                   fetch_error="VK_ACCESS_TOKEN not set")]
+
+        params = {
+            "q": query,
+            "count": limit,
+            "access_token": self.access_token,
+            "v": self.API_VERSION,
+        }
+
+        try:
+            resp = requests.get(self.SEARCH_URL, params=params, timeout=DEFAULT_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
+
+        if "error" in data:
+            err = data["error"]
+            return [UnifiedResult(source=self.name, result_id="", title="", url="",
+                                   fetch_error=f"VK API error {err.get('error_code')}: {err.get('error_msg')}")]
+
+        results = []
+        for item in data.get("response", {}).get("items", []):
+            owner_id = item.get("owner_id")
+            post_id = item.get("id")
+            text = item.get("text", "")
+            results.append(
+                UnifiedResult(
+                    source=self.name,
+                    result_id=f"{owner_id}_{post_id}",
+                    title=text[:80] if text else "(no text)",
+                    url=f"https://vk.com/wall{owner_id}_{post_id}",
+                    author=str(owner_id),
+                    created_at=str(item.get("date")),
+                    score=item.get("likes", {}).get("count"),
+                    text=text,
+                    extra={
+                        "reposts": item.get("reposts", {}).get("count"),
+                        "comments": item.get("comments", {}).get("count"),
+                    },
+                )
+            )
+        return results
+
+
 ALL_ADAPTERS = {
     "hackernews": HackerNewsAdapter,
     "stackexchange": StackExchangeAdapter,
@@ -530,4 +650,6 @@ ALL_ADAPTERS = {
     "youtube": YouTubeAdapter,
     "bluesky": BlueskyAdapter,
     "lemmy": LemmyAdapter,
+    "tumblr": TumblrAdapter,
+    "vk": VKAdapter,
 }
