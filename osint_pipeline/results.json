@@ -1,629 +1,4 @@
 {
-  "mastodon": [],
-  "hackernews": [
-    {
-      "source": "hackernews",
-      "result_id": "29104047",
-      "title": "An oral history of Bank Python",
-      "url": "https://calpaterson.com/bank-python.html",
-      "author": "todsacerdoti",
-      "created_at": "2021-11-04T06:21:38Z",
-      "score": 864,
-      "text": null,
-      "extra": {
-        "num_comments": 325
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "22612938",
-      "title": "The 2,500 year old history of why Python’s all([]) returns True",
-      "url": "https://blog.carlmjohnson.net/post/2020/python-square-of-opposition/",
-      "author": "earthboundkid",
-      "created_at": "2020-03-18T02:16:59Z",
-      "score": 189,
-      "text": null,
-      "extra": {
-        "num_comments": 210
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "48678645",
-      "title": "An oral history of Bank Python (2021)",
-      "url": "https://calpaterson.com/bank-python.html",
-      "author": "tosh",
-      "created_at": "2026-06-25T20:14:35Z",
-      "score": 177,
-      "text": null,
-      "extra": {
-        "num_comments": 71
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "432360",
-      "title": "The History of Python",
-      "url": "http://python-history.blogspot.com/",
-      "author": "bockris",
-      "created_at": "2009-01-13T17:59:42Z",
-      "score": 65,
-      "text": "Python is 19 years old and Guido Van Rossum is starting a new blog on the history of the language.  Here is the from his regular blog that announces it. http://neopythonic.blogspot.com/2009/01/history-of-python-introduction.html",
-      "extra": {
-        "num_comments": 11
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "36636749",
-      "title": "An oral history of Bank Python",
-      "url": "https://calpaterson.com/bank-python.html",
-      "author": "uticus",
-      "created_at": "2023-07-07T18:59:09Z",
-      "score": 62,
-      "text": null,
-      "extra": {
-        "num_comments": 2
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "1472104",
-      "title": "The History of Python: From List Comprehensions to Generator Expressions",
-      "url": "http://python-history.blogspot.com/2010/06/from-list-comprehensions-to-generator.html",
-      "author": "gthank",
-      "created_at": "2010-06-29T17:28:36Z",
-      "score": 43,
-      "text": null,
-      "extra": {
-        "num_comments": 1
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "486338",
-      "title": "The History of Python: Adding Support for User-defined Classes",
-      "url": "http://python-history.blogspot.com/2009/02/adding-support-for-user-defined-classes.html",
-      "author": "cstejerean",
-      "created_at": "2009-02-18T22:23:20Z",
-      "score": 41,
-      "text": null,
-      "extra": {
-        "num_comments": 1
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "4795152",
-      "title": "Twisted History of Python Packaging",
-      "url": "https://speakerdeck.com/myusuf3/twisted-history-of-python-packaging?",
-      "author": "ahammad",
-      "created_at": "2012-11-16T18:35:15Z",
-      "score": 38,
-      "text": "",
-      "extra": {
-        "num_comments": 15
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "1449641",
-      "title": "The History of Python: New-style Classes",
-      "url": "http://python-history.blogspot.com/2010/06/new-style-classes.html",
-      "author": "gthank",
-      "created_at": "2010-06-21T18:37:37Z",
-      "score": 29,
-      "text": null,
-      "extra": {
-        "num_comments": 15
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "hackernews",
-      "result_id": "441464",
-      "title": "The History of Python: Python's Design Philosophy",
-      "url": "http://python-history.blogspot.com/2009/01/pythons-design-philosophy.html",
-      "author": "jaydub",
-      "created_at": "2009-01-20T06:28:07Z",
-      "score": 22,
-      "text": null,
-      "extra": {
-        "num_comments": 2
-      },
-      "fetch_error": null
-    }
-  ],
-  "youtube": [
-    {
-      "source": "youtube",
-      "result_id": "1UzSDMJRh8c",
-      "title": "History of Python | Python Tutorials for Beginners #lec2",
-      "url": "https://www.youtube.com/watch?v=1UzSDMJRh8c",
-      "author": "Jenny's Lectures CS IT",
-      "created_at": "2022-08-28T14:30:00Z",
-      "score": null,
-      "text": "Python Tutorials for Beginners: https://www.youtube.com/playlist?list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT Notes of ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "GfH4QL4VqJ0",
-      "title": "The Story of Python and how it took over the world | Python: The Documentary",
-      "url": "https://www.youtube.com/watch?v=GfH4QL4VqJ0",
-      "author": "CultRepo ",
-      "created_at": "2025-08-28T17:00:06Z",
-      "score": null,
-      "text": "This is the story of the world's most beloved programming language: Python. What began as a side project in Amsterdam during ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "s2Z0PvJEm04",
-      "title": "2. History of Python programming language | Python for Beginners (Full Course) in Hindi",
-      "url": "https://www.youtube.com/watch?v=s2Z0PvJEm04",
-      "author": "Code And Fun",
-      "created_at": "2023-05-26T07:07:01Z",
-      "score": null,
-      "text": "Welcome to our captivating journey through the rich and intriguing history of Python, one of the most widely used and beloved ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "DsYIdMmI5-Q",
-      "title": "The Untold Story of Python",
-      "url": "https://www.youtube.com/watch?v=DsYIdMmI5-Q",
-      "author": "CodeSource",
-      "created_at": "2025-05-24T10:08:10Z",
-      "score": null,
-      "text": "Thank you FloppyData for sponsoring   My recommendations ✓ 30% OFF with promo-code FLYT30 on the best proxy service ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "ucD_1ryKKm0",
-      "title": "Guido van Rossum: The TRUE History Behind The Python Programming Language",
-      "url": "https://www.youtube.com/watch?v=ucD_1ryKKm0",
-      "author": "Behind The Code",
-      "created_at": "2022-11-28T17:36:00Z",
-      "score": null,
-      "text": "Python is popular for multiple reasons, the most exciting of which is the fact that it was Google searched more times than Kim ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "xITyHbvIkoE",
-      "title": "History of Python | Telugu",
-      "url": "https://www.youtube.com/watch?v=xITyHbvIkoE",
-      "author": "PythonLife",
-      "created_at": "2024-10-28T06:12:57Z",
-      "score": null,
-      "text": "50+ IT Full Courses in Telugu: https://www.youtube.com/playlist?list=PLbMVPNscUopTabwrwhZxVbvCoofSbe86P PythonLife ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "J0Aq44Pze-w",
-      "title": "The Story of Python, by Its Creator, Guido van Rossum",
-      "url": "https://www.youtube.com/watch?v=J0Aq44Pze-w",
-      "author": "Oracle Developers",
-      "created_at": "2019-02-25T14:59:45Z",
-      "score": null,
-      "text": "Learn more about Python's creator, Guido Van Rossum, his pioneering work with the Python programming language, and the ...",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "Dkz8jD2RY24",
-      "title": "history of python | python in tamil #sscomputerstudies , #python, #history , #pythonforbeginners",
-      "url": "https://www.youtube.com/watch?v=Dkz8jD2RY24",
-      "author": "SS Computer Studies",
-      "created_at": "2023-07-08T15:26:06Z",
-      "score": null,
-      "text": "This content is about history of python and it's version explained in tamil.",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "m651qZhvXzY",
-      "title": "#History Of Python #Features of Python #python theory history",
-      "url": "https://www.youtube.com/watch?v=m651qZhvXzY",
-      "author": "BCA Smart Study",
-      "created_at": "2023-12-06T05:05:19Z",
-      "score": null,
-      "text": "",
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "Tm5u97I7OrM",
-      "title": "History Of Python Programming Language | Introduction To Python | Python Programming | Simplilearn",
-      "url": "https://www.youtube.com/watch?v=Tm5u97I7OrM",
-      "author": "Simplilearn",
-      "created_at": "2019-09-27T12:00:05Z",
-      "score": null,
-      "text": "\"️️  Professional Certificate in AI and Machine Learning ...",
-      "extra": {},
-      "fetch_error": null
-    }
-  ],
-  "reddit": [
-    {
-      "source": "reddit",
-      "result_id": "",
-      "title": "",
-      "url": "",
-      "author": null,
-      "created_at": null,
-      "score": null,
-      "text": null,
-      "extra": {},
-      "fetch_error": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=history+of+python&limit=10&sort=relevance"
-    }
-  ],
-  "wikipedia": [
-    {
-      "source": "wikipedia",
-      "result_id": "21356332",
-      "title": "History of Python",
-      "url": "https://en.wikipedia.org/wiki/History_of_Python",
-      "author": null,
-      "created_at": "2026-07-07T22:36:15Z",
-      "score": null,
-      "text": "a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python&#039;s principal author and had a",
-      "extra": {
-        "wordcount": 4268
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "2032271",
-      "title": "Indian python",
-      "url": "https://en.wikipedia.org/wiki/Indian_python",
-      "author": null,
-      "created_at": "2026-06-28T00:07:47Z",
-      "score": null,
-      "text": "The Indian python (Python molurus) is a large python species native to tropical and subtropical regions of the Indian subcontinent and Southeast Asia",
-      "extra": {
-        "wordcount": 1534
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "23862",
-      "title": "Python (programming language)",
-      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-      "author": null,
-      "created_at": "2026-07-10T02:35:15Z",
-      "score": null,
-      "text": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant",
-      "extra": {
-        "wordcount": 11627
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "18942",
-      "title": "Monty Python",
-      "url": "https://en.wikipedia.org/wiki/Monty_Python",
-      "author": null,
-      "created_at": "2026-07-10T12:17:24Z",
-      "score": null,
-      "text": "Monty Python, also known as the Pythons, were a British comedy troupe formed in 1969 consisting of Graham Chapman, John Cleese, Terry Gilliam, Eric Idle",
-      "extra": {
-        "wordcount": 19417
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "81118035",
-      "title": "Outline of the Python programming language",
-      "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
-      "author": null,
-      "created_at": "2026-05-10T04:33:00Z",
-      "score": null,
-      "text": "The following outline is provided as an overview of and topical guide to Python: Python is a general-purpose, interpreted, object-oriented, functional",
-      "extra": {
-        "wordcount": 838
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "271890",
-      "title": "Ball python",
-      "url": "https://en.wikipedia.org/wiki/Ball_python",
-      "author": null,
-      "created_at": "2026-05-26T17:30:34Z",
-      "score": null,
-      "text": "The ball python (Python regius), also called the royal python, is a python species native to West and Central Africa, where it lives in grasslands, shrublands",
-      "extra": {
-        "wordcount": 2521
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "639888",
-      "title": "Colt Python",
-      "url": "https://en.wikipedia.org/wiki/Colt_Python",
-      "author": null,
-      "created_at": "2026-07-09T20:04:32Z",
-      "score": null,
-      "text": "The Colt Python is a double action/single action revolver chambered for the .357 Magnum cartridge. It was first introduced in 1955 by the Colt&#039;s Manufacturing",
-      "extra": {
-        "wordcount": 3240
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "819149",
-      "title": "Burmese python",
-      "url": "https://en.wikipedia.org/wiki/Burmese_python",
-      "author": null,
-      "created_at": "2026-06-28T00:04:30Z",
-      "score": null,
-      "text": "The Burmese python (Python bivittatus) is one of the largest species of snakes. It is native to a large area of Southeast Asia and is listed as Vulnerable",
-      "extra": {
-        "wordcount": 5012
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "43003632",
-      "title": "Anaconda (Python distribution)",
-      "url": "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)",
-      "author": null,
-      "created_at": "2026-06-22T08:19:08Z",
-      "score": null,
-      "text": "data science and artificial intelligence distribution platform for the Python programming language. Developed by Anaconda, Inc., an American company founded",
-      "extra": {
-        "wordcount": 1962
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "88595",
-      "title": "Reticulated python",
-      "url": "https://en.wikipedia.org/wiki/Reticulated_python",
-      "author": null,
-      "created_at": "2026-07-06T19:05:32Z",
-      "score": null,
-      "text": "The reticulated python (Malayopython reticulatus) is a python species native to South and Southeast Asia. It is the world&#039;s longest snake, and the third",
-      "extra": {
-        "wordcount": 5870
-      },
-      "fetch_error": null
-    }
-  ],
-  "stackexchange": [
-    {
-      "source": "stackexchange",
-      "result_id": "30081275",
-      "title": "Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?",
-      "url": "https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3",
-      "author": "Rick",
-      "created_at": "1430926363",
-      "score": 3069,
-      "text": null,
-      "extra": {
-        "answer_count": 12,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "performance",
-          "python-3.x",
-          "range",
-          "python-internals"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "47503901",
-      "title": "How to view the entire history of Python commands in the Mac terminal",
-      "url": "https://stackoverflow.com/questions/47503901/how-to-view-the-entire-history-of-python-commands-in-the-mac-terminal",
-      "author": "n80wl",
-      "created_at": "1511756298",
-      "score": 3,
-      "text": null,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": false,
-        "tags": [
-          "python",
-          "macos",
-          "terminal"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "947810",
-      "title": "How to save a Python interactive session?",
-      "url": "https://stackoverflow.com/questions/947810/how-to-save-a-python-interactive-session",
-      "author": "unmounted",
-      "created_at": "1244071262",
-      "score": 479,
-      "text": null,
-      "extra": {
-        "answer_count": 20,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "shell",
-          "read-eval-print-loop",
-          "interactive-session"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "45786368",
-      "title": "How can I find the publication history of Python PEPs?",
-      "url": "https://stackoverflow.com/questions/45786368/how-can-i-find-the-publication-history-of-python-peps",
-      "author": "nsg",
-      "created_at": "1503259944",
-      "score": 0,
-      "text": null,
-      "extra": {
-        "answer_count": 2,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "pep"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "35859266",
-      "title": "How to get the history of a file using python-gitlab",
-      "url": "https://stackoverflow.com/questions/35859266/how-to-get-the-history-of-a-file-using-python-gitlab",
-      "author": "nessy hamsa",
-      "created_at": "1457412932",
-      "score": 2,
-      "text": null,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": false,
-        "tags": [
-          "git",
-          "gitlab"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "63588302",
-      "title": "View history of commands executed using Python in CMD or Powershell",
-      "url": "https://stackoverflow.com/questions/63588302/view-history-of-commands-executed-using-python-in-cmd-or-powershell",
-      "author": "Mountaign1234",
-      "created_at": "1598396913",
-      "score": -1,
-      "text": null,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "windows",
-          "powershell",
-          "cmd"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "44339424",
-      "title": "How to find history of recently upgraded python packages",
-      "url": "https://stackoverflow.com/questions/44339424/how-to-find-history-of-recently-upgraded-python-packages",
-      "author": "user",
-      "created_at": "1496453755",
-      "score": 1,
-      "text": null,
-      "extra": {
-        "answer_count": 0,
-        "is_answered": false,
-        "tags": [
-          "python",
-          "pandas",
-          "scikit-learn",
-          "pip"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "22277039",
-      "title": "Block mode for command history of python interpreter under Emacs",
-      "url": "https://stackoverflow.com/questions/22277039/block-mode-for-command-history-of-python-interpreter-under-emacs",
-      "author": "BnMcGn",
-      "created_at": "1394325928",
-      "score": 3,
-      "text": null,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "emacs"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "22482400",
-      "title": "In Python is there a history of the function that i ran?",
-      "url": "https://stackoverflow.com/questions/22482400/in-python-is-there-a-history-of-the-function-that-i-ran",
-      "author": "Captain_Meow_Meow",
-      "created_at": "1395153082",
-      "score": 0,
-      "text": null,
-      "extra": {
-        "answer_count": 2,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "python-2.7"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "4735398",
-      "title": "history of programming language names?",
-      "url": "https://stackoverflow.com/questions/4735398/history-of-programming-language-names",
-      "author": "kioto",
-      "created_at": "1295441221",
-      "score": 2,
-      "text": null,
-      "extra": {
-        "answer_count": 2,
-        "is_answered": true,
-        "tags": [
-          "c",
-          "programming-languages",
-          "lisp",
-          "history"
-        ]
-      },
-      "fetch_error": null
-    }
-  ],
   "github": [
     {
       "source": "github",
@@ -772,6 +147,631 @@
       "extra": {
         "language": "Python",
         "forks": 45
+      },
+      "fetch_error": null
+    }
+  ],
+  "reddit": [
+    {
+      "source": "reddit",
+      "result_id": "",
+      "title": "",
+      "url": "",
+      "author": null,
+      "created_at": null,
+      "score": null,
+      "text": null,
+      "extra": {},
+      "fetch_error": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=history+of+python&limit=10&sort=relevance"
+    }
+  ],
+  "youtube": [
+    {
+      "source": "youtube",
+      "result_id": "1UzSDMJRh8c",
+      "title": "History of Python | Python Tutorials for Beginners #lec2",
+      "url": "https://www.youtube.com/watch?v=1UzSDMJRh8c",
+      "author": "Jenny's Lectures CS IT",
+      "created_at": "2022-08-28T14:30:00Z",
+      "score": null,
+      "text": "Python Tutorials for Beginners: https://www.youtube.com/playlist?list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT Notes of ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "GfH4QL4VqJ0",
+      "title": "The Story of Python and how it took over the world | Python: The Documentary",
+      "url": "https://www.youtube.com/watch?v=GfH4QL4VqJ0",
+      "author": "CultRepo ",
+      "created_at": "2025-08-28T17:00:06Z",
+      "score": null,
+      "text": "This is the story of the world's most beloved programming language: Python. What began as a side project in Amsterdam during ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "s2Z0PvJEm04",
+      "title": "2. History of Python programming language | Python for Beginners (Full Course) in Hindi",
+      "url": "https://www.youtube.com/watch?v=s2Z0PvJEm04",
+      "author": "Code And Fun",
+      "created_at": "2023-05-26T07:07:01Z",
+      "score": null,
+      "text": "Welcome to our captivating journey through the rich and intriguing history of Python, one of the most widely used and beloved ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "ucD_1ryKKm0",
+      "title": "Guido van Rossum: The TRUE History Behind The Python Programming Language",
+      "url": "https://www.youtube.com/watch?v=ucD_1ryKKm0",
+      "author": "Behind The Code",
+      "created_at": "2022-11-28T17:36:00Z",
+      "score": null,
+      "text": "Python is popular for multiple reasons, the most exciting of which is the fact that it was Google searched more times than Kim ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "DsYIdMmI5-Q",
+      "title": "The Untold Story of Python",
+      "url": "https://www.youtube.com/watch?v=DsYIdMmI5-Q",
+      "author": "CodeSource",
+      "created_at": "2025-05-24T10:08:10Z",
+      "score": null,
+      "text": "Thank you FloppyData for sponsoring   My recommendations ✓ 30% OFF with promo-code FLYT30 on the best proxy service ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "xITyHbvIkoE",
+      "title": "History of Python | Telugu",
+      "url": "https://www.youtube.com/watch?v=xITyHbvIkoE",
+      "author": "PythonLife",
+      "created_at": "2024-10-28T06:12:57Z",
+      "score": null,
+      "text": "50+ IT Full Courses in Telugu: https://www.youtube.com/playlist?list=PLbMVPNscUopTabwrwhZxVbvCoofSbe86P PythonLife ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "Dkz8jD2RY24",
+      "title": "history of python | python in tamil #sscomputerstudies , #python, #history , #pythonforbeginners",
+      "url": "https://www.youtube.com/watch?v=Dkz8jD2RY24",
+      "author": "SS Computer Studies",
+      "created_at": "2023-07-08T15:26:06Z",
+      "score": null,
+      "text": "This content is about history of python and it's version explained in tamil.",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "m651qZhvXzY",
+      "title": "#History Of Python #Features of Python #python theory history",
+      "url": "https://www.youtube.com/watch?v=m651qZhvXzY",
+      "author": "BCA Smart Study",
+      "created_at": "2023-12-06T05:05:19Z",
+      "score": null,
+      "text": "",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "J0Aq44Pze-w",
+      "title": "The Story of Python, by Its Creator, Guido van Rossum",
+      "url": "https://www.youtube.com/watch?v=J0Aq44Pze-w",
+      "author": "Oracle Developers",
+      "created_at": "2019-02-25T14:59:45Z",
+      "score": null,
+      "text": "Learn more about Python's creator, Guido Van Rossum, his pioneering work with the Python programming language, and the ...",
+      "extra": {},
+      "fetch_error": null
+    },
+    {
+      "source": "youtube",
+      "result_id": "Tm5u97I7OrM",
+      "title": "History Of Python Programming Language | Introduction To Python | Python Programming | Simplilearn",
+      "url": "https://www.youtube.com/watch?v=Tm5u97I7OrM",
+      "author": "Simplilearn",
+      "created_at": "2019-09-27T12:00:05Z",
+      "score": null,
+      "text": "\"️️  Professional Certificate in AI and Machine Learning ...",
+      "extra": {},
+      "fetch_error": null
+    }
+  ],
+  "hackernews": [
+    {
+      "source": "hackernews",
+      "result_id": "29104047",
+      "title": "An oral history of Bank Python",
+      "url": "https://calpaterson.com/bank-python.html",
+      "author": "todsacerdoti",
+      "created_at": "2021-11-04T06:21:38Z",
+      "score": 864,
+      "text": null,
+      "extra": {
+        "num_comments": 325
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "22612938",
+      "title": "The 2,500 year old history of why Python’s all([]) returns True",
+      "url": "https://blog.carlmjohnson.net/post/2020/python-square-of-opposition/",
+      "author": "earthboundkid",
+      "created_at": "2020-03-18T02:16:59Z",
+      "score": 189,
+      "text": null,
+      "extra": {
+        "num_comments": 210
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "48678645",
+      "title": "An oral history of Bank Python (2021)",
+      "url": "https://calpaterson.com/bank-python.html",
+      "author": "tosh",
+      "created_at": "2026-06-25T20:14:35Z",
+      "score": 177,
+      "text": null,
+      "extra": {
+        "num_comments": 71
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "432360",
+      "title": "The History of Python",
+      "url": "http://python-history.blogspot.com/",
+      "author": "bockris",
+      "created_at": "2009-01-13T17:59:42Z",
+      "score": 65,
+      "text": "Python is 19 years old and Guido Van Rossum is starting a new blog on the history of the language.  Here is the from his regular blog that announces it. http://neopythonic.blogspot.com/2009/01/history-of-python-introduction.html",
+      "extra": {
+        "num_comments": 11
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "36636749",
+      "title": "An oral history of Bank Python",
+      "url": "https://calpaterson.com/bank-python.html",
+      "author": "uticus",
+      "created_at": "2023-07-07T18:59:09Z",
+      "score": 62,
+      "text": null,
+      "extra": {
+        "num_comments": 2
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "1472104",
+      "title": "The History of Python: From List Comprehensions to Generator Expressions",
+      "url": "http://python-history.blogspot.com/2010/06/from-list-comprehensions-to-generator.html",
+      "author": "gthank",
+      "created_at": "2010-06-29T17:28:36Z",
+      "score": 43,
+      "text": null,
+      "extra": {
+        "num_comments": 1
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "486338",
+      "title": "The History of Python: Adding Support for User-defined Classes",
+      "url": "http://python-history.blogspot.com/2009/02/adding-support-for-user-defined-classes.html",
+      "author": "cstejerean",
+      "created_at": "2009-02-18T22:23:20Z",
+      "score": 41,
+      "text": null,
+      "extra": {
+        "num_comments": 1
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "4795152",
+      "title": "Twisted History of Python Packaging",
+      "url": "https://speakerdeck.com/myusuf3/twisted-history-of-python-packaging?",
+      "author": "ahammad",
+      "created_at": "2012-11-16T18:35:15Z",
+      "score": 38,
+      "text": "",
+      "extra": {
+        "num_comments": 15
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "1449641",
+      "title": "The History of Python: New-style Classes",
+      "url": "http://python-history.blogspot.com/2010/06/new-style-classes.html",
+      "author": "gthank",
+      "created_at": "2010-06-21T18:37:37Z",
+      "score": 29,
+      "text": null,
+      "extra": {
+        "num_comments": 15
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "hackernews",
+      "result_id": "441464",
+      "title": "The History of Python: Python's Design Philosophy",
+      "url": "http://python-history.blogspot.com/2009/01/pythons-design-philosophy.html",
+      "author": "jaydub",
+      "created_at": "2009-01-20T06:28:07Z",
+      "score": 22,
+      "text": null,
+      "extra": {
+        "num_comments": 2
+      },
+      "fetch_error": null
+    }
+  ],
+  "wikipedia": [
+    {
+      "source": "wikipedia",
+      "result_id": "21356332",
+      "title": "History of Python",
+      "url": "https://en.wikipedia.org/wiki/History_of_Python",
+      "author": null,
+      "created_at": "2026-07-07T22:36:15Z",
+      "score": null,
+      "text": "a successor to ABC capable of exception handling and interfacing with the Amoeba operating system. Van Rossum was Python&#039;s principal author and had a",
+      "extra": {
+        "wordcount": 4268
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "2032271",
+      "title": "Indian python",
+      "url": "https://en.wikipedia.org/wiki/Indian_python",
+      "author": null,
+      "created_at": "2026-06-28T00:07:47Z",
+      "score": null,
+      "text": "The Indian python (Python molurus) is a large python species native to tropical and subtropical regions of the Indian subcontinent and Southeast Asia",
+      "extra": {
+        "wordcount": 1534
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "23862",
+      "title": "Python (programming language)",
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "author": null,
+      "created_at": "2026-07-10T02:35:15Z",
+      "score": null,
+      "text": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant",
+      "extra": {
+        "wordcount": 11627
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "81118035",
+      "title": "Outline of the Python programming language",
+      "url": "https://en.wikipedia.org/wiki/Outline_of_the_Python_programming_language",
+      "author": null,
+      "created_at": "2026-05-10T04:33:00Z",
+      "score": null,
+      "text": "The following outline is provided as an overview of and topical guide to Python: Python is a general-purpose, interpreted, object-oriented, functional",
+      "extra": {
+        "wordcount": 838
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "18942",
+      "title": "Monty Python",
+      "url": "https://en.wikipedia.org/wiki/Monty_Python",
+      "author": null,
+      "created_at": "2026-07-10T12:17:24Z",
+      "score": null,
+      "text": "Monty Python, also known as the Pythons, were a British comedy troupe formed in 1969 consisting of Graham Chapman, John Cleese, Terry Gilliam, Eric Idle",
+      "extra": {
+        "wordcount": 19417
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "639888",
+      "title": "Colt Python",
+      "url": "https://en.wikipedia.org/wiki/Colt_Python",
+      "author": null,
+      "created_at": "2026-07-09T20:04:32Z",
+      "score": null,
+      "text": "The Colt Python is a double action/single action revolver chambered for the .357 Magnum cartridge. It was first introduced in 1955 by the Colt&#039;s Manufacturing",
+      "extra": {
+        "wordcount": 3240
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "271890",
+      "title": "Ball python",
+      "url": "https://en.wikipedia.org/wiki/Ball_python",
+      "author": null,
+      "created_at": "2026-05-26T17:30:34Z",
+      "score": null,
+      "text": "The ball python (Python regius), also called the royal python, is a python species native to West and Central Africa, where it lives in grasslands, shrublands",
+      "extra": {
+        "wordcount": 2521
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "43003632",
+      "title": "Anaconda (Python distribution)",
+      "url": "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)",
+      "author": null,
+      "created_at": "2026-06-22T08:19:08Z",
+      "score": null,
+      "text": "data science and artificial intelligence distribution platform for the Python programming language. Developed by Anaconda, Inc., an American company founded",
+      "extra": {
+        "wordcount": 1962
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "819149",
+      "title": "Burmese python",
+      "url": "https://en.wikipedia.org/wiki/Burmese_python",
+      "author": null,
+      "created_at": "2026-06-28T00:04:30Z",
+      "score": null,
+      "text": "The Burmese python (Python bivittatus) is one of the largest species of snakes. It is native to a large area of Southeast Asia and is listed as Vulnerable",
+      "extra": {
+        "wordcount": 5012
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "wikipedia",
+      "result_id": "88595",
+      "title": "Reticulated python",
+      "url": "https://en.wikipedia.org/wiki/Reticulated_python",
+      "author": null,
+      "created_at": "2026-07-06T19:05:32Z",
+      "score": null,
+      "text": "The reticulated python (Malayopython reticulatus) is a python species native to South and Southeast Asia. It is the world&#039;s longest snake, and the third",
+      "extra": {
+        "wordcount": 5870
+      },
+      "fetch_error": null
+    }
+  ],
+  "mastodon": [],
+  "stackexchange": [
+    {
+      "source": "stackexchange",
+      "result_id": "30081275",
+      "title": "Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?",
+      "url": "https://stackoverflow.com/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3",
+      "author": "Rick",
+      "created_at": "1430926363",
+      "score": 3069,
+      "text": "It is my understanding that the range() function, which is actually an object type in Python 3, generates its contents on the fly, similar to a generator.\nThis being the case, I would have expected the following line to take an inordinate amount of time because, in order to determine whether 1 quadrillion is in the range, a quadrillion values would have to be generated:\n1_000_000_000_000_000 in range(1_000_000_000_000_001)\n\nFurthermore: it seems that no matter how many zeroes I add on, the calculation more or less takes the same amount of time (basically instantaneous).\nI have also tried things like this, but the calculation is still almost instant:\n# count by tens\n1_000_000_000_000_000_000_000 in range(0,1_000_000_000_000_000_000_001,10)\n\nIf I try to implement my own range function, the result is not so nice!\ndef my_crappy_range(N):\n    i = 0\n    while i &lt; N:\n        yield i\n        i += 1\n    return\n\nWhat is the range() object doing under the hood that makes it so fast?\n\nMartijn Pieters's answer was chosen for its completeness, but also see abarnert's first answer for a good discussion of what it means for range to be a full-fledged sequence in Python 3, and some information/warning regarding potential inconsistency for __contains__ function optimization across Python implementations. abarnert's other answer goes into some more detail and provides links for those interested in the history behind the optimization in Python 3 (and lack of optimization of xrange in Python 2). Answers by poke and by wim provide the relevant C source code and explanations for those who are interested.\n",
+      "extra": {
+        "answer_count": 12,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "performance",
+          "python-3.x",
+          "range",
+          "python-internals"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "47503901",
+      "title": "How to view the entire history of Python commands in the Mac terminal",
+      "url": "https://stackoverflow.com/questions/47503901/how-to-view-the-entire-history-of-python-commands-in-the-mac-terminal",
+      "author": "n80wl",
+      "created_at": "1511756298",
+      "score": 3,
+      "text": "Is there a way to view the entire command history of Python, from the point of the first command 'python' after the installation, in the Mac terminal?\n\nUPDATE: So, it is not possible to retrieve command history from python in the mac terminal. The best solution was proposed by BobStein-VisiBone in how do you see the entire command history in interactive python? where he mentions using iPython. Unfortunately, even that won't help retrieve the history of the commands that were input in the terminal before setting up iPython. In other words, those commands are probably gone for good.\n",
+      "extra": {
+        "answer_count": 1,
+        "is_answered": false,
+        "tags": [
+          "python",
+          "macos",
+          "terminal"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "947810",
+      "title": "How to save a Python interactive session?",
+      "url": "https://stackoverflow.com/questions/947810/how-to-save-a-python-interactive-session",
+      "author": "unmounted",
+      "created_at": "1244071262",
+      "score": 479,
+      "text": "I find myself frequently using Python's interpreter to work with databases, files, etc -- basically a lot of manual formatting of semi-structured data.  I don't properly save and clean up the useful bits as often as I would like.  Is there a way to save my input into the shell (db connections, variable assignments, little for loops and bits of logic) -- some history of the interactive session?  If I use something like script I get too much stdout noise.  I don't really need to pickle all the objects -- though if there is a solution that does that, it would be OK.  Ideally I would just be left with a script that ran as the one I created interactively, and I could just delete the bits I didn't need.  Is there a package that does this, or a DIY approach?\n",
+      "extra": {
+        "answer_count": 20,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "shell",
+          "read-eval-print-loop",
+          "interactive-session"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "45786368",
+      "title": "How can I find the publication history of Python PEPs?",
+      "url": "https://stackoverflow.com/questions/45786368/how-can-i-find-the-publication-history-of-python-peps",
+      "author": "nsg",
+      "created_at": "1503259944",
+      "score": 0,
+      "text": "While most PEPs have a created date, some do not, see PEP 249 for example.  I'm curious about the history of the PEPs.  Is there some resource that tracks the proposal, acceptance, and publication dates of such PEPs? \n",
+      "extra": {
+        "answer_count": 2,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "pep"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "35859266",
+      "title": "How to get the history of a file using python-gitlab",
+      "url": "https://stackoverflow.com/questions/35859266/how-to-get-the-history-of-a-file-using-python-gitlab",
+      "author": "nessy hamsa",
+      "created_at": "1457412932",
+      "score": 2,
+      "text": "I am trying to get the history of a file using python-gitlab. Is this possible?\n",
+      "extra": {
+        "answer_count": 1,
+        "is_answered": false,
+        "tags": [
+          "git",
+          "gitlab"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "63588302",
+      "title": "View history of commands executed using Python in CMD or Powershell",
+      "url": "https://stackoverflow.com/questions/63588302/view-history-of-commands-executed-using-python-in-cmd-or-powershell",
+      "author": "Mountaign1234",
+      "created_at": "1598396913",
+      "score": -1,
+      "text": "Get-History allows one to view the history of executed commands in Powershell. I am wondering if there is a way for me to execute dir with Python using Popen and then use something like Get-History for CMD.exe or Powershell to view the history of that command that Python executed.\n",
+      "extra": {
+        "answer_count": 1,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "windows",
+          "powershell",
+          "cmd"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "44339424",
+      "title": "How to find history of recently upgraded python packages",
+      "url": "https://stackoverflow.com/questions/44339424/how-to-find-history-of-recently-upgraded-python-packages",
+      "author": "user",
+      "created_at": "1496453755",
+      "score": 1,
+      "text": "I have recently upgraded several packages, like pandas, sklearn, in my python environment, via pip, and am now getting very different results.\nHow can I retrieve a history of recent upgraded packages so I can try to track down why I am seeing a huge difference in accuracy in my model?\n\nI have tried this answer:\n\nimport pip, os, time\n\nfor package in pip.get_installed_distributions():\n    print (\"%s: %s\" % (package, time.ctime(os.path.getctime(package.location))))\n\n\nBut this seems to be giving me only the installed time, not the update time.\n",
+      "extra": {
+        "answer_count": 0,
+        "is_answered": false,
+        "tags": [
+          "python",
+          "pandas",
+          "scikit-learn",
+          "pip"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "22277039",
+      "title": "Block mode for command history of python interpreter under Emacs",
+      "url": "https://stackoverflow.com/questions/22277039/block-mode-for-command-history-of-python-interpreter-under-emacs",
+      "author": "BnMcGn",
+      "created_at": "1394325928",
+      "score": 3,
+      "text": "The interpreter command history in both python.el (Emacs 23) and python-mode.el recall previous code bodies one line at a time (when pressing M-p). \n\nBlock recall, such as is used in IPython, IDLE, and Emacs SLIME (Common Lisp), is nicer for revising functions.\n\nIs there a way to get block recall in one of the inferior modes for Python in Emacs?\n\nEDIT:\n\nTo be specific, if I enter\n\n&gt;&gt;&gt; def afunc(x):\n...     print x\n... \n&gt;&gt;&gt;\n\n\nand then press M-p, I get\n\n&gt;&gt;&gt;     print x\n\n\ninstead of the whole function.\n",
+      "extra": {
+        "answer_count": 1,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "emacs"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "22482400",
+      "title": "In Python is there a history of the function that i ran?",
+      "url": "https://stackoverflow.com/questions/22482400/in-python-is-there-a-history-of-the-function-that-i-ran",
+      "author": "Captain_Meow_Meow",
+      "created_at": "1395153082",
+      "score": 0,
+      "text": "After writing for a long time tons of stuff i've deleted a certain function...\nCTRL + y couldn't save me.\nbasically i had:\n\ndef foo(todo):\n    print 'how why where'\n\n\nin a .py file, i have deleted function and its is not traceable from the file. Since ipython ran the function, and interpreter is still live, is there a way to watch the history of the interpreter running the function?\nI managed to find the function  name by the command:\n\nhistory\n\n\nalso from Export Python interpreter history to a file?:\n\nimport atexit\nimport os\nimport readline\nimport rlcompleter\n\nhistoryPath = os.path.expanduser(\"~/.pyhistory\")\n\ndef save_history(historyPath=historyPath):\n    import readline\n    readline.write_history_file(historyPath)\n\nif os.path.exists(historyPath):\n    readline.read_history_file(historyPath)\n\natexit.register(save_history)\ndel os, atexit, readline, rlcompleter, save_history, historyPath\n\n\nbut it also the same as plain history\nThe real question is where is the history, or trace, from which python can relaunch a function even if the file was deleted as long as the session of the interpreter is alive. I can run the function again &amp; again, because it is complied somewhere.\n\nThanks!\n",
+      "extra": {
+        "answer_count": 2,
+        "is_answered": true,
+        "tags": [
+          "python",
+          "python-2.7"
+        ]
+      },
+      "fetch_error": null
+    },
+    {
+      "source": "stackexchange",
+      "result_id": "4735398",
+      "title": "history of programming language names?",
+      "url": "https://stackoverflow.com/questions/4735398/history-of-programming-language-names",
+      "author": "kioto",
+      "created_at": "1295441221",
+      "score": 2,
+      "text": "do anyone know the history of programming language names? where they come from?\na,b,c, java, python, scheme, prolog, ada, fortran, algol, cobol, assembly, pascal, lisp, perl, haskell, php, javascript, c#, ruby, c++ and so on.\n",
+      "extra": {
+        "answer_count": 2,
+        "is_answered": true,
+        "tags": [
+          "c",
+          "programming-languages",
+          "lisp",
+          "history"
+        ]
       },
       "fetch_error": null
     }

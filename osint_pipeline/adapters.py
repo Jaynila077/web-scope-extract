@@ -80,6 +80,10 @@ class StackExchangeAdapter(SourceAdapter):
             "pagesize": limit,
             "order": "desc",
             "sort": "relevance",
+            # withbody filter includes the question's full body text in the
+            # same response, so we get a relevance-indicator for free
+            # instead of a second request per question.
+            "filter": "withbody",
         }
         if self.api_key:
             params["key"] = self.api_key
@@ -102,6 +106,7 @@ class StackExchangeAdapter(SourceAdapter):
                     author=item.get("owner", {}).get("display_name"),
                     created_at=str(item.get("creation_date")),
                     score=item.get("score"),
+                    text=_strip_html(item.get("body", "")),
                     extra={
                         "answer_count": item.get("answer_count"),
                         "is_answered": item.get("is_answered"),

@@ -18,7 +18,9 @@ import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
-load_dotenv(Path(__file__).parent.parent / ".env")
+load_dotenv(Path(__file__).parent / ".env")           # local .env (this folder)
+load_dotenv(Path(__file__).parent.parent / ".env")    # fallback: repo-root .env
+
 from adapters import ALL_ADAPTERS
 from core import UnifiedResult
 
