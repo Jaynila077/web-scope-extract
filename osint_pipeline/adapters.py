@@ -385,25 +385,66 @@ class YouTubeAdapter(SourceAdapter):
 class BlueskyAdapter(SourceAdapter):
     name = "bluesky"
 
-    SEARCH_URL = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+    PUBLIC_SEARCH_URL = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+    SESSION_URL = "https://bsky.social/xrpc/com.atproto.server.createSession"
+    AUTHED_SEARCH_URL = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
+
+    def __init__(self):
+        # Optional: a free Bluesky account + an app password (generate one at
+        # bsky.app -> Settings -> App Passwords -- NOT your main password).
+        # Only needed because the public unauthenticated endpoint is known
+        # to return intermittent 403s (tracked in bluesky-social/indigo#797
+        # and several related issues) -- this isn't something we can fix
+        # client-side, it's Bluesky's own infra behavior.
+        self.handle = os.environ.get("BLUESKY_HANDLE")
+        self.app_password = os.environ.get("BLUESKY_APP_PASSWORD")
+        self._access_jwt: Optional[str] = None
+
+    def _get_session_token(self) -> Optional[str]:
+        if self._access_jwt:
+            return self._access_jwt
+        if not (self.handle and self.app_password):
+            return None
+        try:
+            resp = requests.post(
+                self.SESSION_URL,
+                json={"identifier": self.handle, "password": self.app_password},
+                timeout=DEFAULT_TIMEOUT,
+            )
+            resp.raise_for_status()
+            self._access_jwt = resp.json().get("accessJwt")
+            return self._access_jwt
+        except Exception:
+            return None
 
     def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
+        headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
         params = {"q": query, "limit": limit}
+
         try:
-            resp = requests.get(self.SEARCH_URL, params=params, timeout=DEFAULT_TIMEOUT)
+            resp = requests.get(self.PUBLIC_SEARCH_URL, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
             resp.raise_for_status()
             data = resp.json()
-        except Exception as e:
-            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
+        except Exception as public_err:
+            token = self._get_session_token()
+            if not token:
+                return [UnifiedResult(
+                    source=self.name, result_id="", title="", url="",
+                    fetch_error=f"public endpoint failed ({public_err}) and no BLUESKY_HANDLE/APP_PASSWORD set for authed fallback",
+                )]
+            try:
+                auth_headers = {**headers, "Authorization": f"Bearer {token}"}
+                resp = requests.get(self.AUTHED_SEARCH_URL, params=params, headers=auth_headers, timeout=DEFAULT_TIMEOUT)
+                resp.raise_for_status()
+                data = resp.json()
+            except Exception as authed_err:
+                return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(authed_err))]
 
         results = []
         for post in data.get("posts", []):
             author = post.get("author", {})
             record = post.get("record", {})
             handle = author.get("handle", "")
-            # Bluesky post URLs are constructed from the handle + the post's
-            # own rkey (last segment of its at:// URI), there's no direct
-            # https URL field in the API response.
             uri = post.get("uri", "")
             rkey = uri.rsplit("/", 1)[-1] if uri else ""
             text = record.get("text", "")
