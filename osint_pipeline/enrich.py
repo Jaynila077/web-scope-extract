@@ -57,27 +57,6 @@ def _fetch_reddit_full(result: UnifiedResult, char_limit: int) -> str:
     return "\n---\n".join(parts)[:char_limit]
 
 
-def _fetch_wikipedia_full(result: UnifiedResult, char_limit: int) -> str:
-    """Full article extract via the Wikipedia REST API (not just the search snippet)."""
-    title = result.title
-    lang_url = result.url.split("/wiki/")[0]  # preserves whatever language subdomain was used
-    api_url = f"{lang_url}/w/api.php"
-    params = {
-        "action": "query",
-        "prop": "extracts",
-        "explaintext": 1,
-        "titles": title,
-        "format": "json",
-    }
-    headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
-    resp = requests.get(api_url, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
-    resp.raise_for_status()
-    pages = resp.json().get("query", {}).get("pages", {})
-    for page in pages.values():
-        return page.get("extract", "")[:char_limit]
-    return ""
-
-
 def _fetch_github_readme(result: UnifiedResult, char_limit: int) -> str:
     """
     README content via the GitHub API (returns base64, needs decoding).
@@ -98,17 +77,6 @@ def _fetch_github_readme(result: UnifiedResult, char_limit: int) -> str:
     data = resp.json()
     content = base64.b64decode(data.get("content", "")).decode("utf-8", errors="replace")
     return content[:char_limit]
-
-
-def _fetch_hackernews_full(result: UnifiedResult, char_limit: int) -> str:
-    """
-    HN posts are usually just links -- 'full text' means the linked
-    article's text, not anything HN itself hosts (except Ask/Show HN posts,
-    which already have story_text populated at search time).
-    """
-    if result.text:  # Ask HN / Show HN text post, already have it
-        return result.text[:char_limit]
-    return _fetch_generic_page_text(result.url, char_limit)
 
 
 def _fetch_stackexchange_full(result: UnifiedResult, char_limit: int) -> str:

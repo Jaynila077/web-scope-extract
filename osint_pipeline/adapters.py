@@ -22,44 +22,6 @@ DEFAULT_TIMEOUT = 10.0
 
 
 # ---------------------------------------------------------------------------
-# Hacker News -- fully free, no key, Firebase-backed
-# ---------------------------------------------------------------------------
-
-class HackerNewsAdapter(SourceAdapter):
-    name = "hackernews"
-
-    SEARCH_URL = "https://hn.algolia.com/api/v1/search"
-
-    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
-        # HN's own Firebase API has no text search; the community-run
-        # Algolia-backed search API is the standard free way to query it.
-        params = {"query": query, "tags": "story", "hitsPerPage": limit}
-        try:
-            resp = requests.get(self.SEARCH_URL, params=params, timeout=DEFAULT_TIMEOUT)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
-
-        results = []
-        for hit in data.get("hits", []):
-            results.append(
-                UnifiedResult(
-                    source=self.name,
-                    result_id=hit.get("objectID", ""),
-                    title=hit.get("title") or hit.get("story_title") or "(no title)",
-                    url=hit.get("url") or f"https://news.ycombinator.com/item?id={hit.get('objectID')}",
-                    author=hit.get("author"),
-                    created_at=hit.get("created_at"),
-                    score=hit.get("points"),
-                    text=hit.get("story_text"),
-                    extra={"num_comments": hit.get("num_comments")},
-                )
-            )
-        return results
-
-
-# ---------------------------------------------------------------------------
 # Stack Exchange (Stack Overflow etc.) -- free, generous, no key required
 # for low volume (but a free registered key raises your quota)
 # ---------------------------------------------------------------------------
@@ -117,56 +79,6 @@ class StackExchangeAdapter(SourceAdapter):
         return results
 
 
-# ---------------------------------------------------------------------------
-# Wikipedia -- fully free REST API, no key
-# ---------------------------------------------------------------------------
-
-class WikipediaAdapter(SourceAdapter):
-    name = "wikipedia"
-
-    def __init__(self, lang: str = "en"):
-        self.search_url = f"https://{lang}.wikipedia.org/w/api.php"
-
-    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
-        params = {
-            "action": "query",
-            "list": "search",
-            "srsearch": query,
-            "format": "json",
-            "srlimit": limit,
-        }
-        headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
-
-        try:
-            resp = requests.get(self.search_url, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
-
-        results = []
-        base = self.search_url.replace("/w/api.php", "/wiki/")
-        for item in data.get("query", {}).get("search", []):
-            title = item.get("title", "")
-            results.append(
-                UnifiedResult(
-                    source=self.name,
-                    result_id=str(item.get("pageid")),
-                    title=title,
-                    url=base + title.replace(" ", "_"),
-                    created_at=item.get("timestamp"),
-                    text=_strip_html(item.get("snippet", "")),
-                    extra={"wordcount": item.get("wordcount")},
-                )
-            )
-        return results
-
-
-def _strip_html(s: str) -> str:
-    import html
-    import re
-    text = re.sub(r"<[^>]+>", "", s)
-    return html.unescape(text)
 
 
 # ---------------------------------------------------------------------------
@@ -641,9 +553,7 @@ class VKAdapter(SourceAdapter):
 
 
 ALL_ADAPTERS = {
-    "hackernews": HackerNewsAdapter,
     "stackexchange": StackExchangeAdapter,
-    "wikipedia": WikipediaAdapter,
     "github": GitHubAdapter,
     "mastodon": MastodonAdapter,
     "reddit": RedditAdapter,

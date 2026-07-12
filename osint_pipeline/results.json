@@ -1,367 +1,4 @@
 {
-  "youtube": [
-    {
-      "source": "youtube",
-      "result_id": "uNcJe3JawxY",
-      "title": "Should you still learn Python in 2026?",
-      "url": "https://www.youtube.com/watch?v=uNcJe3JawxY",
-      "author": "Indently",
-      "created_at": "2026-06-09T13:00:24Z",
-      "score": null,
-      "text": "This video was sponsored by Zed, the next-gen code editor: ▷ Try Zed for free: http://zed.dev/download In today's video I'm going ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "8bZ6xSFTdUw",
-      "title": "How I Would Learn Python in 2026 (if I started over)",
-      "url": "https://www.youtube.com/watch?v=8bZ6xSFTdUw",
-      "author": "Anudeep Sharma",
-      "created_at": "2026-02-02T03:53:11Z",
-      "score": null,
-      "text": "If I had to start learning Python from scratch in 2026, this is exactly what I'd do. This isn't just another \"learn Python\" video — it's a ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "DmIZcpobnoU",
-      "title": "Python Roadmap 2026 + 5 Insane Projects to Get Hired (One Shot Course)",
-      "url": "https://www.youtube.com/watch?v=DmIZcpobnoU",
-      "author": "Saumya Singh",
-      "created_at": "2026-07-08T00:51:17Z",
-      "score": null,
-      "text": "Learning Python doesn't have to be confusing. In this video, I'll guide you through the complete Python Roadmap for 2026 while ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "j_JuhAWlEaI",
-      "title": "Python Tutorial for Beginners 2026",
-      "url": "https://www.youtube.com/watch?v=j_JuhAWlEaI",
-      "author": "Telusko",
-      "created_at": "2026-03-02T08:56:53Z",
-      "score": null,
-      "text": "Master Python in One Video: From Beginner to Advanced* Ready to master Python from scratch? Whether you're a complete ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "S5tOMUCvPFA",
-      "title": "How I would learn Python programming FAST (If I could start over)",
-      "url": "https://www.youtube.com/watch?v=S5tOMUCvPFA",
-      "author": "Tech With Tim",
-      "created_at": "2026-05-23T13:00:36Z",
-      "score": null,
-      "text": "The best beginner-friendly Python resources I recommend: Python Programming Fundamentals Track (Datacamp) ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "N8hMwzpZXq8",
-      "title": "How To Learn Python in 2026 (For AI Engineering)",
-      "url": "https://www.youtube.com/watch?v=N8hMwzpZXq8",
-      "author": "CodeHead",
-      "created_at": "2026-07-06T15:00:02Z",
-      "score": null,
-      "text": "Learn to code faster with Scrimba from Python to AI (SAVE 20% on Pro) https://scrimba.com/courses:free?via=codehead Get ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "otBkgSZr0no",
-      "title": "The Only Python You Need to Learn for AI in 2026",
-      "url": "https://www.youtube.com/watch?v=otBkgSZr0no",
-      "author": "Marina Wyss - AI & Machine Learning",
-      "created_at": "2026-06-16T14:00:02Z",
-      "score": null,
-      "text": "Check Out Scrimba's New Intro to Python Course: https://scrimba.com/learn-python-c04n8v7vf9?via=MarinaWyss It's currently free ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "mC4nyib2sfg",
-      "title": "How I Would Learn Python FAST (if I could start over)",
-      "url": "https://www.youtube.com/watch?v=mC4nyib2sfg",
-      "author": "Sajjaad Khader",
-      "created_at": "2025-11-19T22:01:02Z",
-      "score": null,
-      "text": "If I had to learn Python again from scratch.. and learn it FAST - this is exactly how I'd do it. After teaching myself Python in just two ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "q2-pnQffZik",
-      "title": "Learn Python for FREE in 2025",
-      "url": "https://www.youtube.com/watch?v=q2-pnQffZik",
-      "author": "Sajjaad Khader",
-      "created_at": "2024-12-31T02:30:33Z",
-      "score": null,
-      "text": "Learn Python for FREE in 2025 #coding #compsci #python #fyp Source: TikTok (individualkex)",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    },
-    {
-      "source": "youtube",
-      "result_id": "qpf_qKMqcUc",
-      "title": "How To Approach Python With Vibe Coding In 2026",
-      "url": "https://www.youtube.com/watch?v=qpf_qKMqcUc",
-      "author": "Krish Naik",
-      "created_at": "2025-12-07T08:13:00Z",
-      "score": null,
-      "text": "Pythopn 2026 playlist: https://www.youtube.com/playlist?list=PLZoTAELRMXVM62BnrED5aQdPpVGuSKdT4 Super excited to ...",
-      "full_text": null,
-      "enriched": false,
-      "extra": {},
-      "fetch_error": null
-    }
-  ],
-  "stackexchange": [
-    {
-      "source": "stackexchange",
-      "result_id": "79951233",
-      "title": "Please advice me on how to learn it as a complete beginner",
-      "url": "https://stackoverflow.com/questions/79951233/please-advice-me-on-how-to-learn-it-as-a-complete-beginner",
-      "author": "Akash Deswal",
-      "created_at": "1780557369",
-      "score": 2,
-      "text": "I'm a complete beginner who has never coded in life but wants to learn Python. I'm 35 years old and looking for tutorials online but gets stuck because of the information overload. Please help me and advise me on what is the best way to learn Python in 2026 and also please share some sources that can help me learn it.\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 10,
-        "is_answered": true,
-        "tags": [
-          "python"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79916132",
-      "title": "What should I use for python API framework in 2026?",
-      "url": "https://stackoverflow.com/questions/79916132/what-should-i-use-for-python-api-framework-in-2026",
-      "author": "Alexey Ryazhskikh",
-      "created_at": "1774686206",
-      "score": 0,
-      "text": "What should I use to keep my Python AI simple, AI friendly and OpenAPI support?\n1. Flask,\n2. FastAPI\n3. Lightstar.\nI'm trying to understand the difference and assess risks using the API framework for our internal corporate productivity API+SPA project.\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": false,
-        "tags": [
-          "python"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79962635",
-      "title": "If You Were Starting Today, What Would You Learn?",
-      "url": "https://stackoverflow.com/questions/79962635/if-you-were-starting-today-what-would-you-learn",
-      "author": "Vaibhav ",
-      "created_at": "1781784815",
-      "score": 1,
-      "text": "I'm a fresher preparing for software development and technology-related roles in 2026, and I'm trying to identify which programming languages, frameworks, and technologies are currently the most relevant in the industry.\nThere are so many options available today, such as:\n\nLanguages: Java, JavaScript, TypeScript, Python, C#, Go, Rust, Kotlin, etc.\n\nFrontend: React, Next.js, Angular, Vue\n\nBackend: Spring Boot, Node.js, Express, NestJS, .NET, Django, FastAPI\n\nMobile: Flutter, React Native, Kotlin, Swift\n\nCloud & DevOps: AWS, Azure, Docker, Kubernetes\n\nData & AI: SQL, PostgreSQL, TensorFlow, PyTorch, LangChain, Generative AI tools\n\n\nI'd love to hear from developers, recruiters, hiring managers, and industry professionals:\n\nWhich technologies are most in demand in 2026?\nIf you had to rank the top programming languages for employability, what would your list look like?\nWhich frameworks have the strongest job market and long-term growth potential?\nWhat technologies would you recommend a fresher learn today to maximize job opportunities over the next 3–5 years?\nCould you rate the following on a scale of 1–10 based on:\n\nJob Availability\nSalary Potential\nLearning Curve\nFuture Growth\nIndustry Adoption\n\n\n\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 2,
-        "is_answered": true,
-        "tags": [
-          "mobile",
-          "frontend",
-          "cloud",
-          "backend",
-          "programming-languages"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79877820",
-      "title": "Is it possible to bypass Cloudflare Turnstile from a datacenter IP using Selenium or curl_cffi in 2026? Local works, Docker/Hosted always fails",
-      "url": "https://stackoverflow.com/questions/79877820/is-it-possible-to-bypass-cloudflare-turnstile-from-a-datacenter-ip-using-seleniu",
-      "author": "Dao Immortal",
-      "created_at": "1769594535",
-      "score": 0,
-      "text": "I’m building a text-to-speech web application that scrapes chapters from novel sites (e.g., novelfire.net) and converts them into audiobooks.\nEverything works perfectly on my local Windows machine, but the scraper fails consistently when deployed to a hosted environment (Hugging Face Spaces running in Docker).\nThese target sites use Cloudflare Turnstile.\nBehavior\n\nLocally (Windows, residential IP):\n\ncurl_cffi with TLS impersonation works.\n\nundetected-chromedriver passes the “Verify you are human” challenge.\n\n\n\nHosted (Docker, datacenter IP):\n\ncurl_cffi requests return 403 immediately.\n\nSelenium loads the page but gets stuck in an infinite Turnstile loop.\n\nEven when the checkbox is detected and clicked (JS click, normal click, and keyboard Tab+Space), the challenge never completes.\n\n\n\n\nThis strongly suggests that Cloudflare is blocking primarily based on IP/ASN reputation and/or headless/container fingerprinting.\n\nTech Stack\n\nPython 3.9\n\nFastAPI backend\n\nPrimary request method: curl_cffi (TLS fingerprint spoofing)\n\nFallback: Selenium with undetected-chromedriver\n\nEnvironment: Docker (Debian, Chrome Stable)\n\n\n\nWhat I’ve Tried\n1. TLS Spoofing with curl_cffi\nfrom curl_cffi import requests\n\nresponse = requests.get(url, impersonate=\"chrome120\", headers=headers)\n# Works locally, fails in Docker with 403\n\nresponse = requests.get(url, impersonate=\"safari15_5\", headers=headers)\n# Also fails in Docker\n\nBoth succeed locally and fail in the hosted container.\n2. Selenium with undetected-chromedriver\nimport undetected_chromedriver as uc\n\noptions = uc.ChromeOptions()\noptions.add_argument(\"--headless=new\")\noptions.add_argument(\"--no-sandbox\")\noptions.add_argument(\"--disable-dev-shm-usage\")\n\ndriver = uc.Chrome(options=options)\n\nI also implemented Turnstile handling logic:\n\nDetecting iframes\n\nShadow DOM probing\n\nStandard click + JS click\n\nKeyboard navigation (Tab + Space)\n\n\nIn hosted logs, the element is found and interacted with, but Cloudflare never clears the challenge. The page remains in the “Verify you are human” state until timeout.\n\nQuestions\n\nAs of early 2026, is it actually possible to bypass modern Cloudflare Turnstile from a datacenter/cloud IP using only open-source tools (e.g., undetected-chromedriver, Playwright, curl_cffi)?\n\nIf both curl_cffi and Selenium are effectively blocked due to IP/ASN reputation, is there any configuration flag or browser tweak I’m missing that can make this work from a hosted container?\n\nWhat is the standard architectural workaround for a hosted web app that needs to scrape such sites without user interaction?\n\nIs the only realistic option:\n\nResidential proxies?\n\nOr offloading scraping to a local agent running on the user’s machine?\n\n\n\n\n\n\nIn other words:\nIs Cloudflare Turnstile now fundamentally unsolvable from datacenter environments, making residential IPs or client-side/local scraping the only viable path?\nI’m trying to determine whether I’m missing a technical detail, or whether this is simply a hard architectural limit in 2026.\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "selenium-webdriver",
-          "web-scraping",
-          "cloudflare",
-          "undetected-chromedriver"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79951983",
-      "title": "Is Array.prototype.reduce more efficient than Math.sumPrecise for summing an array of integers?",
-      "url": "https://stackoverflow.com/questions/79951983/is-array-prototype-reduce-more-efficient-than-math-sumprecise-for-summing-an-arr",
-      "author": "hb20007",
-      "created_at": "1780680734",
-      "score": -2,
-      "text": "The classical way for summing an array of numbers in JS is arr.reduce((a, b) => a + b).\nIn 2026, Math.sumPrecise() was added to the specification to enable summing a list of floating-point numbers more precisely than the naive approach. As someone coming from Python, where I’m accustomed to using sum(arr) to sum an array, Math.sumPrecise() is appealing to use for summing an array of integers.\nThe MDN documentation, as well as the proposal, does not mention the word “integer” at all. So, it is unclear whether this is supposed to be used for summing integers and what the performance implications are.\nAre there any benchmarks that compare the performance of the two methods?\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "javascript",
-          "arrays",
-          "performance",
-          "sum",
-          "reduce"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79788212",
-      "title": "Plotly/Dash rangeselector \"All\" button extends x-axis into future despite no data",
-      "url": "https://stackoverflow.com/questions/79788212/plotly-dash-rangeselector-all-button-extends-x-axis-into-future-despite-no-dat",
-      "author": "Zainab",
-      "created_at": "1760213509",
-      "score": 1,
-      "text": "I'm building a time series plot using Plotly with Dash, and I'm running into a frustrating issue with the x-axis.\nPython Version: 3.10.16\nPlotly  Version : 6.0.0\nPandas Version : 2.2.3\nMy setup:\n\nThe x-axis is based on a datetime column.\nData is weekly, specifically on the last day of each week.\nThe latest date in the dataset is sometime in 2026.\nI use rangeselector buttons to allow quick zooming (1w, 1m, 6m, etc.).\n\nThe issue:\nWhen I click the \"All\" button in the rangeselector, the x-axis extends all the way into 2027, even though:\n\nThe data ends in 2026.\nThere are no NaNs, NaTs, or future dates in the dataframe.\nI've set xaxis.range explicitly in the layout based on df['date_column'].min() and .max().\nI've also tried xaxis.autorange=False,  no luck.\nThis only happens when step='all' is used; other buttons behave as expected.\n\nHere's a Minimal Reproducible Example:\nimport pandas as pd\nimport plotly.graph_objects as go\n\n\ndate_range = pd.date_range(start='2003-01-01', end='2026-06-01', freq='W')\n\ndf = pd.DataFrame({\n    'date_column': date_range,\n    'value': range(0,len(date_range))\n})\n\nfig = go.Figure()\nfig.add_trace(go.Scatter(\n    x=df['date_column'],\n    y=df['value'],\n    mode='lines+markers'  \n))\n\nfig.update_layout(\n    xaxis=dict(\n        type='date',\n        range=[df['date_column'].min(), df['date_column'].max()],\n        autorange=False,\n        rangeselector=dict(\n            buttons=[\n                dict(count=1, label='1m', step='month', stepmode='backward'),\n                dict(count=6, label='6m', step='month', stepmode='backward'),\n                dict(count=1, label='YTD', step='year', stepmode='todate'),\n                dict(count=1, label='1y', step='year', stepmode='backward'),\n                dict(step='all')\n            ]\n        )\n    )\n)\n\nfig.show()\n\nWhat I've tried:\n\nValidated that all dates in df['date_column'] are correct and within range.\nSorted the dataframe by date.\nTried removing all unused traces (only one visible trace currently).\nSet autorange=False and range manually - still doesn't affect \"All\".\nNo reindex, padding, or empty points being added.\n\nMy question:\n\nWhy does step='all' extend the axis far beyond the actual data?\nIs there a clean way to force Plotly to respect the actual data range when \"All\" is clicked?\nI believe it might be because plotly is just adding extra padding and dates in the data is not daily but weekly, is there any workaround to that?\nOr is this just a known quirk in how Plotly handles the \"All\" button?\n\nAny insights, explanations, or workarounds are much appreciated!\nThanks in advance !\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "plotly",
-          "range",
-          "rangeslider"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "76236851",
-      "title": "Rvest - scrap list and store items independently",
-      "url": "https://stackoverflow.com/questions/76236851/rvest-scrap-list-and-store-items-independently",
-      "author": "l&#233;o",
-      "created_at": "1683898439",
-      "score": 0,
-      "text": "I'm having struggle with scrapping a website with rvest, specially  elements.\nhere is the page I'm practicing on :\nhttps://www.edx.org/professional-certificate/harvardx-computer-science-for-artifical-intelligence\nCS50's Introduction to Computer Science\n6–18 hours per week, for 12 weeks\nAn introduction to the intellectual enterprises of computer science and the art of programming.\nCS50's Introduction to Artificial Intelligence with Python\n10–30 hours per week, for 7 weeks\nLearn to use machine learning in Python in this introductory course on artificial intelligence.\nJob Outlooks\n....\nhere is my code :\n> html_nodes(page, xpath='//*[@id=\"main-content\"]/div[3]/div/div[3]/div/div/div/ol') %>% html_text()\n[1] \"HarvardX's Computer Science for Artificial Intelligence Professional Certificate CS50's Introduction to Computer Science6–18 hours per week, for 12 weeksAn introduction to the intellectual enterprises of computer science and the art of programming.View the course CS50's Introduction to Artificial Intelligence with Python10–30 hours per week, for 7 weeksLearn to use machine learning in Python in this introductory course on artificial intelligence.View the courseJob OutlookEmployment of software developers is projected to grow 24% from 2016 to 2026, much faster than the average for all occupations. (source: Occupational Outlook Handbook)The median pay for software developers in the U.S. in 2018 was $105,590 per year. (source: Occupational Outlook Handbook)\"\n\n\nWhen i try to use the xpath element '//*[@id=\"main-content\"]/div[3]/div/div[3]/div/div/div/ol/li[2]'\nI'm only getting one of them :\nhtml_nodes(page, xpath='//*[@id=\"main-content\"]/div[3]/div/div[3]/div/div/div/ol/li[2]') %>% html_text()\n[1] \" CS50's Introduction to Computer Science6–18 hours per week, for 12 weeksAn introduction to the intellectual enterprises of computer science and the art of programming.View the course\"\n\nDo you know of I can do it without having to specify the three xpath independently?`I can't find a way\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "r",
-          "rvest"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79941323",
-      "title": "AI/ML student with projects but weak fundamentals because of heavy LLM usage — how should I realistically improve for internships?",
-      "url": "https://stackoverflow.com/questions/79941323/ai-ml-student-with-projects-but-weak-fundamentals-because-of-heavy-llm-usage-h",
-      "author": "Alok Singh",
-      "created_at": "1778780730",
-      "score": 2,
-      "text": "I’m a 6th sem B.Tech AI/ML student targeting AI/ML internships at Indian startups.\nCurrent situation:\n\nbuilt a multi-agent clinical reasoning system\n\nbuilt a movie recommender using embeddings + vector DBs\n\nfinalist at Meta x Scaler OpenEnv\n\ndecent CGPA (~8.2)\n\n\nGitHub: github.com/alok943\nBut honestly, most of these projects were built with heavy LLM assistance.\nI can:\n\nunderstand architecture and workflows\n\ndebug code\n\nintegrate APIs/tools\n\ndeploy projects\n\nimprove outputs iteratively\n\n\nBut I still struggle to:\n\ncode larger things fully from scratch\n\nimplement core algorithms confidently\n\nsolve DSA problems consistently\n\nbuild systems without relying heavily on AI tools\n\n\nAfter exams, my plan is:\n\ndaily DSA in Python\n\nfinish Andrew Ng ML + DL specializations\n\nstrengthen ML fundamentals mathematically\n\ngo deeper into RAG/LLM engineering\n\nimprove communication and problem-solving skills\n\n\nWhat I want realistic advice on from people already working in AI/ML:\n\nFor AI/ML internships, how important is DSA compared to ML engineering skills?\n\nAre LLM-assisted projects still respected if the candidate understands the system deeply?\n\nShould I focus more on fundamentals or continue building advanced projects?\n\nWhat skills do startups actually expect from freshers in 2026?\n\nIf you were in this position, what would you prioritize for the next 6–8 months?\n\n\nLooking for practical advice, not motivation.\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 3,
-        "is_answered": true,
-        "tags": [
-          "python",
-          "machine-learning",
-          "architecture",
-          "artificial-intelligence"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "79900019",
-      "title": "Error 429 Too Many Requests when I try to host my bot with Render",
-      "url": "https://stackoverflow.com/questions/79900019/error-429-too-many-requests-when-i-try-to-host-my-bot-with-render",
-      "author": "OJ Dev",
-      "created_at": "1772531150",
-      "score": 2,
-      "text": "I made a discord bot that is basically a super simple honeypot to get bots banned from my server, however, when I try to host my bot using render, I get this error:\ndiscord.errors.HTTPException: 429 Too Many Requests (error code: 0): <!doctype html>\n\nThe weird part is that when I run this code locally on my computer, I don't get this error and it is only when I try to host it using render. Also for some reason I am unable to view the discord.log file in render, so I have no idea how to debug this.\nHere is the code for the bot:\nimport discord\nfrom discord.ext import commands\nimport logging\nfrom dotenv import load_dotenv\nimport os\nimport random\n\nfrom keep_alive import keep_alive\n\n# bot setup\nload_dotenv()\ntoken = os.getenv(\"DISCORD_TOKEN\")\n\nkeep_alive()\n\nhandler = logging.FileHandler(filename=\"discord.log\", encoding=\"utf-8\", mode=\"w\")\nintents = discord.Intents.default()\nintents.message_content = True\nintents.members = True\n\nbot = commands.Bot(command_prefix=\"!\", intents=intents)\n\n# constants\nMOD_ROLES = [\"Mod\"]\nBOT_TRAP_CHANNEL = 1472514187757355131\nBANNED_BOTS_CHANNEL = 1472840649433944145\nBOT_ROLE = \"I am a robot\"\nBAN_REASON = \"you are a bot and bots are cringe\"\nBAN_MESSAGES = [\n    \"{m} thought they were a robot\",\n    \"{m} selected the \\\"I am a robot\\\" role (not a good idea)\",\n    \"{m} was NOT cooking. (you CAN believe it)\",\n    \"{m} is a bot. Have fun being banned!\",\n    \"{m} can't read... or they were a bot.\",\n    \"Everyone please laugh at {m}.\",\n    \"What is {m} doing? (being a bot and probably scamming people or smth)\",\n    \"{m} died\",\n    \"{b} is better that {m}.\",\n    \"{b} is the only bot here that we like. The same can not be said about {m}\",\n    \"{m}.ban(reason=\\\"you are a bot and bots are cringe\\\")\",\n    \"{m} get banned noob\",\n    \"{m} was NOT a human.\",\n    \"{m} is a filthy clanker\",\n    \"A wild {m} turned out to actually be a bot!\"\n]\n\n# ban member function\n\nasync def banMember(member: discord.Member):\n    await member.ban(reason=BAN_REASON)\n    await bot.get_channel(BANNED_BOTS_CHANNEL).send(random.choice(BAN_MESSAGES).format(m=member.mention, b=bot.user.mention))\n\n# ban bots in bot-trap channel\ndef MemberIsMod(member: discord.Member):\n    for role in member.roles:\n        if role.name in MOD_ROLES:\n            return True\n            \n    return False\n\n@bot.event\nasync def on_message(message: discord.Message):\n    if message.author == bot.user:\n        return\n\n    if message.channel == bot.get_channel(BOT_TRAP_CHANNEL):\n        if not MemberIsMod(message.author):\n            await banMember(message.author)\n    \n    await bot.process_commands(message)\n\n# ban bots with \"I AM A BOT PLEASE BAN ME\" role\ndef MemberHasBotRole(member: discord.Member):\n    for role in member.roles:\n        if role.name == BOT_ROLE:\n            return True\n            \n    return False\n\n@bot.event\nasync def on_member_update(before: discord.Member, after: discord.Member):\n    if len(before.roles) < len(after.roles):\n        if MemberHasBotRole(after):\n            await banMember(after)\n\n@bot.event\nasync def on_ready():\n    for member in bot.get_all_members():\n        if MemberHasBotRole(member):\n            await banMember(member)\n\nbot.run(token, log_handler=handler, log_level=logging.DEBUG)\n\nHere is the log from render:\n2026-03-03T06:15:58.43508941Z 127.0.0.1 - - [03/Mar/2026 06:15:58] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:21:03.5180319Z 127.0.0.1 - - [03/Mar/2026 06:21:03] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:26:07.415685655Z 127.0.0.1 - - [03/Mar/2026 06:26:07] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:31:11.314376365Z 127.0.0.1 - - [03/Mar/2026 06:31:11] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:36:16.728865579Z 127.0.0.1 - - [03/Mar/2026 06:36:16] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:41:21.370584379Z 127.0.0.1 - - [03/Mar/2026 06:41:21] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:46:30.710635137Z 127.0.0.1 - - [03/Mar/2026 06:46:30] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:51:37.702580677Z 127.0.0.1 - - [03/Mar/2026 06:51:37] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T06:56:43.136182407Z 127.0.0.1 - - [03/Mar/2026 06:56:43] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T07:01:48.387383028Z 127.0.0.1 - - [03/Mar/2026 07:01:48] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T07:05:10.209759642Z ==> Deploying...\n2026-03-03T07:05:10.315228536Z ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance\n2026-03-03T07:05:59.176133378Z ==> Running 'python3 main.py'\n2026-03-03T07:06:05.513511362Z  * Serving Flask app ''\n2026-03-03T07:06:05.513959902Z  * Debug mode: off\n2026-03-03T07:06:05.60569915Z WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\n2026-03-03T07:06:05.60572466Z  * Running on all addresses (0.0.0.0)\n2026-03-03T07:06:05.605729841Z  * Running on http://127.0.0.1:8080\n2026-03-03T07:06:05.60573427Z  * Running on http://10.19.182.181:8080\n2026-03-03T07:06:05.605777722Z Press CTRL+C to quit\n2026-03-03T07:06:05.706825405Z Traceback (most recent call last):\n2026-03-03T07:06:05.708642485Z   File \"/opt/render/project/src/main.py\", line 92, in <module>\n2026-03-03T07:06:05.708657386Z     bot.run(token, log_handler=handler, log_level=logging.DEBUG)\n2026-03-03T07:06:05.708661686Z     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-03-03T07:06:05.708666216Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/client.py\", line 929, in run\n2026-03-03T07:06:05.708671216Z     asyncio.run(runner())\n2026-03-03T07:06:05.708675066Z     ~~~~~~~~~~~^^^^^^^^^^\n2026-03-03T07:06:05.708679116Z   File \"/opt/render/project/python/Python-3.14.3/lib/python3.14/asyncio/runners.py\", line 204, in run\n2026-03-03T07:06:05.708683076Z     return runner.run(main)\n2026-03-03T07:06:05.708686836Z            ~~~~~~~~~~^^^^^^\n2026-03-03T07:06:05.708690756Z   File \"/opt/render/project/python/Python-3.14.3/lib/python3.14/asyncio/runners.py\", line 127, in run\n2026-03-03T07:06:05.708695966Z     return self._loop.run_until_complete(task)\n2026-03-03T07:06:05.708699737Z            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n2026-03-03T07:06:05.708704417Z   File \"/opt/render/project/python/Python-3.14.3/lib/python3.14/asyncio/base_events.py\", line 719, in run_until_complete\n2026-03-03T07:06:05.708708157Z     return future.result()\n2026-03-03T07:06:05.708712257Z            ~~~~~~~~~~~~~^^\n2026-03-03T07:06:05.708716137Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/client.py\", line 918, in runner\n2026-03-03T07:06:05.708720127Z     await self.start(token, reconnect=reconnect)\n2026-03-03T07:06:05.708724847Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/client.py\", line 846, in start\n2026-03-03T07:06:05.708729187Z     await self.login(token)\n2026-03-03T07:06:05.708733277Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/client.py\", line 675, in login\n2026-03-03T07:06:05.708737318Z     data = await self.http.static_login(token)\n2026-03-03T07:06:05.708741127Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-03-03T07:06:05.708745198Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/http.py\", line 839, in static_login\n2026-03-03T07:06:05.708748988Z     data = await self.request(Route('GET', '/users/@me'))\n2026-03-03T07:06:05.708752868Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n2026-03-03T07:06:05.708756778Z   File \"/opt/render/project/src/.venv/lib/python3.14/site-packages/discord/http.py\", line 709, in request\n2026-03-03T07:06:05.708760668Z     raise HTTPException(response, data)\n2026-03-03T07:06:05.708765448Z discord.errors.HTTPException: 429 Too Many Requests (error code: 0): <!doctype html>\n2026-03-03T07:06:05.708769858Z <!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n2026-03-03T07:06:05.708773598Z <!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n2026-03-03T07:06:05.708780658Z <!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n2026-03-03T07:06:05.708785019Z <!--[if gt IE 8]><!-->\n2026-03-03T07:06:05.708798779Z <html class=\"no-js\" lang=\"en-US\">\n2026-03-03T07:06:05.708801539Z     <!--<![endif]-->\n2026-03-03T07:06:05.708803879Z     <head>\n2026-03-03T07:06:05.708806109Z         <title>Access denied | discord.com used Cloudflare to restrict access | discord.com | Cloudflare</title>\n2026-03-03T07:06:05.708808489Z         <meta charset=\"UTF-8\" />\n2026-03-03T07:06:05.708810719Z <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n2026-03-03T07:06:05.708813159Z <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n2026-03-03T07:06:05.708815309Z <meta name=\"robots\" content=\"noindex, nofollow\" />\n2026-03-03T07:06:05.708817489Z <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n2026-03-03T07:06:05.708819979Z <link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" /> <script>\n2026-03-03T07:06:05.708823349Z   (function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode: 1015 },helpful:a,version: 1 };b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\n2026-03-03T07:06:05.708827369Z b.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n2026-03-03T07:06:05.708830069Z </script>\n2026-03-03T07:06:05.708832329Z         <script\n2026-03-03T07:06:05.70883452Z             defer\n2026-03-03T07:06:05.708837Z             src=\"https://performance.radar.cloudflare.com/beacon.js\"\n2026-03-03T07:06:05.70883916Z         ></script>\n2026-03-03T07:06:05.70884133Z     </head>\n2026-03-03T07:06:05.70884349Z     <body>\n2026-03-03T07:06:05.70884563Z         <div id=\"cf-wrapper\">\n2026-03-03T07:06:05.70884786Z             <div\n2026-03-03T07:06:05.70885021Z                 class=\"cf-alert cf-alert-error cf-cookie-error hidden\"\n2026-03-03T07:06:05.70885244Z                 id=\"cookie-alert\"\n2026-03-03T07:06:05.70885478Z                 data-translate=\"enable_cookies\"\n2026-03-03T07:06:05.70885699Z             >\n2026-03-03T07:06:05.70885926Z                 Please enable cookies.\n2026-03-03T07:06:05.70886166Z             </div>\n2026-03-03T07:06:05.70886377Z             <div id=\"cf-error-details\" class=\"p-0\">\n2026-03-03T07:06:05.70886607Z                 <header\n2026-03-03T07:06:05.708871881Z                     class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\"\n2026-03-03T07:06:05.70887451Z                 >\n2026-03-03T07:06:05.708876961Z                     <h1\n2026-03-03T07:06:05.70887959Z                         class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\"\n2026-03-03T07:06:05.708881891Z                     >\n2026-03-03T07:06:05.708884301Z                         <span data-translate=\"error\">Error</span>\n2026-03-03T07:06:05.708886611Z                         <span>1015</span>\n2026-03-03T07:06:05.708888821Z                     </h1>\n2026-03-03T07:06:05.708891021Z                     <span\n2026-03-03T07:06:05.708893341Z                         class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\"\n2026-03-03T07:06:05.708901351Z                         >Ray ID: 9d66cbe959ea150f &bull;</span\n2026-03-03T07:06:05.708903821Z                     >\n2026-03-03T07:06:05.708906131Z                     <span\n2026-03-03T07:06:05.708908471Z                         class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\"\n2026-03-03T07:06:05.708910711Z                         >2026-03-03 07:06:05 UTC</span\n2026-03-03T07:06:05.708912881Z                     >\n2026-03-03T07:06:05.708915071Z                     <h2\n2026-03-03T07:06:05.708917571Z                         class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\"\n2026-03-03T07:06:05.708919911Z                     >\n2026-03-03T07:06:05.708922282Z                         You are being rate limited\n2026-03-03T07:06:05.708924531Z                     </h2>\n2026-03-03T07:06:05.708926802Z                 </header>\n2026-03-03T07:06:05.708928962Z                 \n2026-03-03T07:06:05.708931492Z                 \n2026-03-03T07:06:05.708933832Z                 <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n2026-03-03T07:06:05.708936092Z                     <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n2026-03-03T07:06:05.708938362Z                         <h2\n2026-03-03T07:06:05.708940702Z                             class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\"\n2026-03-03T07:06:05.708943562Z                             data-translate=\"what_happened\"\n2026-03-03T07:06:05.708945872Z                         >\n2026-03-03T07:06:05.708948142Z                             What happened?\n2026-03-03T07:06:05.708950422Z                         </h2>\n2026-03-03T07:06:05.708952872Z                         \n2026-03-03T07:06:05.708955712Z                             <p>The owner of this website (discord.com) has banned you temporarily from accessing this website.</p>\n2026-03-03T07:06:05.708957902Z                         \n2026-03-03T07:06:05.708960092Z                         \n2026-03-03T07:06:05.708964563Z                         <p>\n2026-03-03T07:06:05.708966872Z                             Please see\n2026-03-03T07:06:05.708969192Z                             <a\n2026-03-03T07:06:05.708971503Z                                 rel=\"noopener noreferrer\"\n2026-03-03T07:06:05.708974723Z                                 href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/\"\n2026-03-03T07:06:05.708976983Z                                 target=\"_blank\"\n2026-03-03T07:06:05.708979143Z                                 >https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1015/</a\n2026-03-03T07:06:05.708981293Z                             >\n2026-03-03T07:06:05.708983463Z                             for more details.\n2026-03-03T07:06:05.708985633Z                         </p>\n2026-03-03T07:06:05.708987963Z                         \n2026-03-03T07:06:05.709017474Z                     </div>\n2026-03-03T07:06:05.709022804Z \n2026-03-03T07:06:05.709025394Z                     \n2026-03-03T07:06:05.709027794Z                 </section>\n2026-03-03T07:06:05.709030434Z                 \n2026-03-03T07:06:05.709032574Z \n2026-03-03T07:06:05.709037014Z                 <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n2026-03-03T07:06:05.709039384Z     <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n2026-03-03T07:06:05.709041674Z         Was this page helpful?\n2026-03-03T07:06:05.709044044Z         <button\n2026-03-03T07:06:05.709046204Z             class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\"\n2026-03-03T07:06:05.709054125Z             id=\"feedback-button-yes\"\n2026-03-03T07:06:05.709056734Z             type=\"button\"\n2026-03-03T07:06:05.709059185Z         >\n2026-03-03T07:06:05.709061385Z             Yes\n2026-03-03T07:06:05.709063555Z         </button>\n2026-03-03T07:06:05.709065715Z         <button\n2026-03-03T07:06:05.709067835Z             class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\"\n2026-03-03T07:06:05.709070155Z             id=\"feedback-button-no\"\n2026-03-03T07:06:05.709072385Z             type=\"button\"\n2026-03-03T07:06:05.709074625Z         >\n2026-03-03T07:06:05.709076915Z             No\n2026-03-03T07:06:05.709079085Z         </button>\n2026-03-03T07:06:05.709081275Z     </div>\n2026-03-03T07:06:05.709083755Z     <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n2026-03-03T07:06:05.709086045Z         Thank you for your feedback!\n2026-03-03T07:06:05.709088305Z     </div>\n2026-03-03T07:06:05.709091265Z </div> <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n2026-03-03T07:06:05.709093525Z     <p class=\"text-13\">\n2026-03-03T07:06:05.709096075Z       <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9d66cbe959ea150f</strong></span>\n2026-03-03T07:06:05.709098355Z       <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n2026-03-03T07:06:05.709100726Z       <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n2026-03-03T07:06:05.709103015Z         Your IP:\n2026-03-03T07:06:05.709105415Z         <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n2026-03-03T07:06:05.709107806Z         <span class=\"hidden\" id=\"cf-footer-ip\">74.220.48.250</span>\n2026-03-03T07:06:05.709110096Z         <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n2026-03-03T07:06:05.709112456Z       </span>\n2026-03-03T07:06:05.709118386Z       <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n2026-03-03T07:06:05.709120696Z       \n2026-03-03T07:06:05.709123016Z     </p>\n2026-03-03T07:06:05.709125526Z     <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n2026-03-03T07:06:05.709127836Z   </div><!-- /.error-footer -->\n2026-03-03T07:06:05.709130016Z             </div>\n2026-03-03T07:06:05.709132396Z             <!-- /#cf-error-details -->\n2026-03-03T07:06:05.709134696Z         </div>\n2026-03-03T07:06:05.709136926Z         <!-- /#cf-wrapper -->\n2026-03-03T07:06:05.709138946Z \n2026-03-03T07:06:05.709141006Z          <script>\n2026-03-03T07:06:05.709143227Z     window._cf_translation = {};\n2026-03-03T07:06:05.709147927Z     \n2026-03-03T07:06:05.709150187Z     \n2026-03-03T07:06:05.709152357Z   </script> \n2026-03-03T07:06:05.709154597Z         \n2026-03-03T07:06:05.709159167Z     <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'9d66cbe959ea150f',t:'MTc3MjUyMTU2NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>\n2026-03-03T07:06:05.709167167Z </html>\n2026-03-03T07:06:05.76991699Z 127.0.0.1 - - [03/Mar/2026 07:06:05] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T07:06:08.753876963Z ==> Your service is live 🎉\n2026-03-03T07:06:08.821146576Z ==> \n2026-03-03T07:06:08.824142747Z ==> ///////////////////////////////////////////////////////////\n2026-03-03T07:06:08.826781528Z ==> \n2026-03-03T07:06:08.832224409Z ==> \n2026-03-03T07:06:08.834515968Z ==> ///////////////////////////////////////////////////////////\n2026-03-03T07:06:08.93309394Z 127.0.0.1 - - [03/Mar/2026 07:06:08] \"GET / HTTP/1.1\" 200 -\n2026-03-03T07:06:53.902454713Z 127.0.0.1 - - [03/Mar/2026 07:06:53] \"HEAD / HTTP/1.1\" 200 -\n2026-03-03T07:11:10.925348034Z ==> Detected service running on port 8080\n2026-03-03T07:11:11.002822429Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding\n2026-03-03T07:11:59.588732057Z 127.0.0.1 - - [03/Mar/2026 07:11:59] \"HEAD / HTTP/1.1\" 200 -\n\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 1,
-        "is_answered": true,
-        "tags": [
-          "discord.py"
-        ]
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "stackexchange",
-      "result_id": "73996547",
-      "title": "How to add environment variable into virtual environment when using build module?",
-      "url": "https://stackoverflow.com/questions/73996547/how-to-add-environment-variable-into-virtual-environment-when-using-build-module",
-      "author": "Tpinion",
-      "created_at": "1665227849",
-      "score": 1,
-      "text": "Question Background\nMy windows system's preferred encoding is gbk, but i want to build a project with utf-8.\nSo i set utf-8 mode via environment variable.\nCommand\n# powershell commands\n$env:PYTHONUTF8=1\npython -m build --wheel\n\nError\n* Creating venv isolated environment...\nERROR Failed to create venv. Maybe try installing virtualenv.\n·······\nUnicodeDecodeError: 'gbk' codec can't decode byte 0x99 in position 2026: illegal multibyte sequence\n\nQuestion\nI have known the reason is that the environment variable was not added into venv isolated environment and using the option --no-isolation can skip creating venv.\nIs any way to add the environment variable into venv?\n",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "answer_count": 0,
-        "is_answered": false,
-        "tags": [
-          "python-3.x"
-        ]
-      },
-      "fetch_error": null
-    }
-  ],
   "github": [
     {
       "source": "github",
@@ -534,169 +171,149 @@
       "fetch_error": null
     }
   ],
-  "hackernews": [
+  "mastodon": [],
+  "youtube": [
     {
-      "source": "hackernews",
-      "result_id": "48372689",
-      "title": "Modern Python Profiling in 2026: From CProfile to Tachyon",
-      "url": "https://medium.com/techtofreedom/9-levels-of-profiling-python-apps-in-2026-from-cprofile-to-tachyon-36024bdb36c6",
-      "author": "yangzhou",
-      "created_at": "2026-06-02T16:44:06Z",
-      "score": 3,
-      "text": null,
+      "source": "youtube",
+      "result_id": "uNcJe3JawxY",
+      "title": "Should you still learn Python in 2026?",
+      "url": "https://www.youtube.com/watch?v=uNcJe3JawxY",
+      "author": "Indently",
+      "created_at": "2026-06-09T13:00:24Z",
+      "score": null,
+      "text": "This video was sponsored by Zed, the next-gen code editor: ▷ Try Zed for free: http://zed.dev/download In today's video I'm going ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "47609750",
-      "title": "Building a Python Library in 2026",
-      "url": "https://stephenlf.dev/blog/python-library-in-2026/",
-      "author": "stephenlf",
-      "created_at": "2026-04-02T03:45:19Z",
-      "score": 2,
-      "text": null,
+      "source": "youtube",
+      "result_id": "8bZ6xSFTdUw",
+      "title": "How I Would Learn Python in 2026 (if I started over)",
+      "url": "https://www.youtube.com/watch?v=8bZ6xSFTdUw",
+      "author": "Anudeep Sharma",
+      "created_at": "2026-02-02T03:53:11Z",
+      "score": null,
+      "text": "If I had to start learning Python from scratch in 2026, this is exactly what I'd do. This isn't just another \"learn Python\" video — it's a ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "46824632",
-      "title": "The State of Python Packaging in 2026: A Comprehensive Guide",
-      "url": "https://learn.repoforge.io/posts/the-state-of-python-packaging-in-2026/",
-      "author": "repoforge-io",
-      "created_at": "2026-01-30T14:15:30Z",
-      "score": 2,
-      "text": null,
+      "source": "youtube",
+      "result_id": "DmIZcpobnoU",
+      "title": "Python Roadmap 2026 + 5 Insane Projects to Get Hired (One Shot Course)",
+      "url": "https://www.youtube.com/watch?v=DmIZcpobnoU",
+      "author": "Saumya Singh",
+      "created_at": "2026-07-08T00:51:17Z",
+      "score": null,
+      "text": "Learning Python doesn't have to be confusing. In this video, I'll guide you through the complete Python Roadmap for 2026 while ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "46577922",
-      "title": "Python: What's Coming in 2026",
-      "url": "https://thenewstack.io/python-whats-coming-in-2026/",
-      "author": "MilnerRoute",
-      "created_at": "2026-01-11T18:02:39Z",
-      "score": 1,
-      "text": null,
+      "source": "youtube",
+      "result_id": "j_JuhAWlEaI",
+      "title": "Python Tutorial for Beginners 2026",
+      "url": "https://www.youtube.com/watch?v=j_JuhAWlEaI",
+      "author": "Telusko",
+      "created_at": "2026-03-02T08:56:53Z",
+      "score": null,
+      "text": "Master Python in One Video: From Beginner to Advanced* Ready to master Python from scratch? Whether you're a complete ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "48156849",
-      "title": "The case for Python + HTMX over React",
-      "url": "https://dev.to/syedahmershah/react-is-overkill-why-python-htmx-is-dominating-in-2026-17ib",
-      "author": "indigodaddy",
-      "created_at": "2026-05-16T04:30:49Z",
-      "score": 7,
-      "text": null,
+      "source": "youtube",
+      "result_id": "S5tOMUCvPFA",
+      "title": "How I would learn Python programming FAST (If I could start over)",
+      "url": "https://www.youtube.com/watch?v=S5tOMUCvPFA",
+      "author": "Tech With Tim",
+      "created_at": "2026-05-23T13:00:36Z",
+      "score": null,
+      "text": "The best beginner-friendly Python resources I recommend: Python Programming Fundamentals Track (Datacamp) ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "48156394",
-      "title": "Python with HTMX may be a better stack than React",
-      "url": "https://dev.to/syedahmershah/react-is-overkill-why-python-htmx-is-dominating-in-2026-17ib",
-      "author": "indigodaddy",
-      "created_at": "2026-05-16T02:48:47Z",
-      "score": 2,
-      "text": null,
+      "source": "youtube",
+      "result_id": "N8hMwzpZXq8",
+      "title": "How To Learn Python in 2026 (For AI Engineering)",
+      "url": "https://www.youtube.com/watch?v=N8hMwzpZXq8",
+      "author": "CodeHead",
+      "created_at": "2026-07-06T15:00:02Z",
+      "score": null,
+      "text": "Learn to code faster with Scrimba from Python to AI (SAVE 20% on Pro) https://scrimba.com/courses:free?via=codehead Get ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "48247416",
-      "title": "Opaque Types in Python",
-      "url": "https://blog.glyph.im/2026/05/opaque-types-in-python.html",
-      "author": "lumpa",
-      "created_at": "2026-05-23T13:17:39Z",
-      "score": 131,
-      "text": null,
+      "source": "youtube",
+      "result_id": "otBkgSZr0no",
+      "title": "The Only Python You Need to Learn for AI in 2026",
+      "url": "https://www.youtube.com/watch?v=otBkgSZr0no",
+      "author": "Marina Wyss - AI & Machine Learning",
+      "created_at": "2026-06-16T14:00:02Z",
+      "score": null,
+      "text": "Check Out Scrimba's New Intro to Python Course: https://scrimba.com/learn-python-c04n8v7vf9?via=MarinaWyss It's currently free ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 58
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "48233410",
-      "title": "Opaque Types in Python",
-      "url": "https://blog.glyph.im/2026/05/opaque-types-in-python.html",
-      "author": "ingve",
-      "created_at": "2026-05-22T08:35:37Z",
-      "score": 2,
-      "text": null,
+      "source": "youtube",
+      "result_id": "mC4nyib2sfg",
+      "title": "How I Would Learn Python FAST (if I could start over)",
+      "url": "https://www.youtube.com/watch?v=mC4nyib2sfg",
+      "author": "Sajjaad Khader",
+      "created_at": "2025-11-19T22:01:02Z",
+      "score": null,
+      "text": "If I had to learn Python again from scratch.. and learn it FAST - this is exactly how I'd do it. After teaching myself Python in just two ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "47069973",
-      "title": "Is Python Still the King of AI in 2026?",
-      "url": "https://codebitdaily.blogspot.com/2026/02/why-python-is-king-ai-2026.html",
-      "author": "CodeBit26",
-      "created_at": "2026-02-19T04:36:20Z",
-      "score": 3,
-      "text": null,
+      "source": "youtube",
+      "result_id": "q2-pnQffZik",
+      "title": "Learn Python for FREE in 2025",
+      "url": "https://www.youtube.com/watch?v=q2-pnQffZik",
+      "author": "Sajjaad Khader",
+      "created_at": "2024-12-31T02:30:33Z",
+      "score": null,
+      "text": "Learn Python for FREE in 2025 #coding #compsci #python #fyp Source: TikTok (individualkex)",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 6
-      },
+      "extra": {},
       "fetch_error": null
     },
     {
-      "source": "hackernews",
-      "result_id": "47062774",
-      "title": "Wagon's Algorithm in Python",
-      "url": "https://www.johndcook.com/blog/2026/02/14/wagons-algorithm-in-python/",
-      "author": "ibobev",
-      "created_at": "2026-02-18T16:29:53Z",
-      "score": 1,
-      "text": null,
+      "source": "youtube",
+      "result_id": "qpf_qKMqcUc",
+      "title": "How To Approach Python With Vibe Coding In 2026",
+      "url": "https://www.youtube.com/watch?v=qpf_qKMqcUc",
+      "author": "Krish Naik",
+      "created_at": "2025-12-07T08:13:00Z",
+      "score": null,
+      "text": "Pythopn 2026 playlist: https://www.youtube.com/playlist?list=PLZoTAELRMXVM62BnrED5aQdPpVGuSKdT4 Super excited to ...",
       "full_text": null,
       "enriched": false,
-      "extra": {
-        "num_comments": 0
-      },
+      "extra": {},
       "fetch_error": null
     }
   ],
-  "mastodon": [],
   "reddit": [
     {
       "source": "reddit",
@@ -711,168 +328,6 @@
       "enriched": false,
       "extra": {},
       "fetch_error": "403 Client Error: Blocked for url: https://www.reddit.com/search.json?q=python+in+2026&limit=10&sort=relevance"
-    }
-  ],
-  "wikipedia": [
-    {
-      "source": "wikipedia",
-      "result_id": "23862",
-      "title": "Python (programming language)",
-      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-      "author": null,
-      "created_at": "2026-07-10T02:35:15Z",
-      "score": null,
-      "text": "expected to launch in October 2026. Earlier versions in the 3.x series have reached end-of-life and no longer receive security updates. Python is widely taught",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 11627
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "21356332",
-      "title": "History of Python",
-      "url": "https://en.wikipedia.org/wiki/History_of_Python",
-      "author": null,
-      "created_at": "2026-07-07T22:36:15Z",
-      "score": null,
-      "text": "programming language Python was conceived in the late 1980s, and its implementation was started in December 1989 by Guido van Rossum at CWI in the Netherlands",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 4268
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "18942",
-      "title": "Monty Python",
-      "url": "https://en.wikipedia.org/wiki/Monty_Python",
-      "author": null,
-      "created_at": "2026-07-10T12:17:24Z",
-      "score": null,
-      "text": "Monty Python, also known as the Pythons, were a British comedy troupe formed in 1969 consisting of Graham Chapman, John Cleese, Terry Gilliam, Eric Idle",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 19417
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "696712",
-      "title": "Python Software Foundation",
-      "url": "https://en.wikipedia.org/wiki/Python_Software_Foundation",
-      "author": null,
-      "created_at": "2026-06-25T10:23:30Z",
-      "score": null,
-      "text": "The Python Software Foundation (PSF) is an American nonprofit organization devoted to the Python programming language, launched on March 6, 2001. The mission",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 841
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "79462782",
-      "title": "The Python Hunt",
-      "url": "https://en.wikipedia.org/wiki/The_Python_Hunt",
-      "author": null,
-      "created_at": "2026-07-11T01:29:01Z",
-      "score": null,
-      "text": "May 8, 2026, by Oscilloscope Laboratories. Every year, the Florida government invites the public to participate in a competitive invasive python removal",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 481
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "88595",
-      "title": "Reticulated python",
-      "url": "https://en.wikipedia.org/wiki/Reticulated_python",
-      "author": null,
-      "created_at": "2026-07-06T19:05:32Z",
-      "score": null,
-      "text": "The reticulated python (Malayopython reticulatus) is a python species native to South and Southeast Asia. It is the world's longest snake, and the third",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 5870
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "25223558",
-      "title": "Burmese pythons in Florida",
-      "url": "https://en.wikipedia.org/wiki/Burmese_pythons_in_Florida",
-      "author": null,
-      "created_at": "2026-06-20T17:43:08Z",
-      "score": null,
-      "text": "population in South Florida. The earliest python sightings in Florida date back to the 1930s, and although Burmese pythons were first sighted in Everglades",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 4671
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "34292335",
-      "title": "Pip (package manager)",
-      "url": "https://en.wikipedia.org/wiki/Pip_(package_manager)",
-      "author": null,
-      "created_at": "2026-06-10T08:38:30Z",
-      "score": null,
-      "text": "pip (also known by Python 3's alias pip3) is a package manager (package management system) written in Python and is used to install and manage software",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 796
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "43003632",
-      "title": "Anaconda (Python distribution)",
-      "url": "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)",
-      "author": null,
-      "created_at": "2026-06-22T08:19:08Z",
-      "score": null,
-      "text": "distribution platform for the Python programming language. Developed by Anaconda, Inc., an American company founded in 2012, the platform is used to develop",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 1962
-      },
-      "fetch_error": null
-    },
-    {
-      "source": "wikipedia",
-      "result_id": "29040606",
-      "title": "Flask (web framework)",
-      "url": "https://en.wikipedia.org/wiki/Flask_(web_framework)",
-      "author": null,
-      "created_at": "2026-05-29T23:34:45Z",
-      "score": null,
-      "text": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has",
-      "full_text": null,
-      "enriched": false,
-      "extra": {
-        "wordcount": 819
-      },
-      "fetch_error": null
     }
   ],
   "lemmy": [
@@ -1046,5 +501,6 @@
       },
       "fetch_error": null
     }
-  ]
+  ],
+  "stackexchange": []
 }
