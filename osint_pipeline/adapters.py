@@ -378,6 +378,107 @@ class YouTubeAdapter(SourceAdapter):
         return results
 
 
+# ---------------------------------------------------------------------------
+# Bluesky -- fully open AT Protocol public API, no auth needed for search
+# ---------------------------------------------------------------------------
+
+class BlueskyAdapter(SourceAdapter):
+    name = "bluesky"
+
+    SEARCH_URL = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+
+    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
+        params = {"q": query, "limit": limit}
+        try:
+            resp = requests.get(self.SEARCH_URL, params=params, timeout=DEFAULT_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
+
+        results = []
+        for post in data.get("posts", []):
+            author = post.get("author", {})
+            record = post.get("record", {})
+            handle = author.get("handle", "")
+            # Bluesky post URLs are constructed from the handle + the post's
+            # own rkey (last segment of its at:// URI), there's no direct
+            # https URL field in the API response.
+            uri = post.get("uri", "")
+            rkey = uri.rsplit("/", 1)[-1] if uri else ""
+            text = record.get("text", "")
+
+            results.append(
+                UnifiedResult(
+                    source=self.name,
+                    result_id=uri,
+                    title=text[:80] if text else "(no text)",
+                    url=f"https://bsky.app/profile/{handle}/post/{rkey}" if handle and rkey else "",
+                    author=handle,
+                    created_at=record.get("createdAt"),
+                    score=post.get("likeCount"),
+                    text=text,
+                    extra={
+                        "reposts": post.get("repostCount"),
+                        "replies": post.get("replyCount"),
+                    },
+                )
+            )
+        return results
+
+
+# ---------------------------------------------------------------------------
+# Lemmy -- federated, Reddit-like. Free REST API per instance (no key),
+# same federation caveat as Mastodon: one instance's search != all of Lemmy.
+# ---------------------------------------------------------------------------
+
+class LemmyAdapter(SourceAdapter):
+    name = "lemmy"
+
+    def __init__(self, instance: str = "lemmy.world"):
+        self.search_url = f"https://{instance}/api/v3/search"
+
+    def search(self, query: str, limit: int = 10) -> list[UnifiedResult]:
+        params = {
+            "q": query,
+            "type_": "Posts",
+            "sort": "TopAll",
+            "limit": limit,
+        }
+        headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
+        try:
+            resp = requests.get(self.search_url, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            return [UnifiedResult(source=self.name, result_id="", title="", url="", fetch_error=str(e))]
+
+        results = []
+        for item in data.get("posts", []):
+            post = item.get("post", {})
+            counts = item.get("counts", {})
+            creator = item.get("creator", {})
+            community = item.get("community", {})
+
+            results.append(
+                UnifiedResult(
+                    source=self.name,
+                    result_id=str(post.get("id")),
+                    title=post.get("name", ""),
+                    url=post.get("ap_id", ""),  # ActivityPub id doubles as the canonical link
+                    author=creator.get("name"),
+                    created_at=post.get("published"),
+                    score=counts.get("score"),
+                    text=post.get("body"),
+                    extra={
+                        "community": community.get("name"),
+                        "num_comments": counts.get("comments"),
+                    },
+                )
+            )
+        return results
+
+
 ALL_ADAPTERS = {
     "hackernews": HackerNewsAdapter,
     "stackexchange": StackExchangeAdapter,
@@ -386,4 +487,6 @@ ALL_ADAPTERS = {
     "mastodon": MastodonAdapter,
     "reddit": RedditAdapter,
     "youtube": YouTubeAdapter,
+    "bluesky": BlueskyAdapter,
+    "lemmy": LemmyAdapter,
 }

@@ -151,6 +151,67 @@ def _fetch_youtube_full(result: UnifiedResult, char_limit: int) -> str:
     return text[:char_limit]
 
 
+def _fetch_bluesky_full(result: UnifiedResult, char_limit: int) -> str:
+    """
+    Fetch thread context (replies) for a Bluesky post via getPostThread.
+    The search stage already has the full post text (posts are short),
+    so the value-add here is pulling in the reply thread.
+    """
+    api_url = "https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread"
+    params = {"uri": result.result_id}
+    headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
+    resp = requests.get(api_url, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
+    resp.raise_for_status()
+    data = resp.json()
+
+    thread = data.get("thread", {})
+    parts = [result.text or ""]
+
+    def _walk(node):
+        for reply in node.get("replies", []):
+            post = reply.get("post", {})
+            record = post.get("record", {})
+            text = record.get("text", "")
+            if text:
+                parts.append(text)
+            _walk(reply)
+
+    _walk(thread)
+    return "\n---\n".join(parts)[:char_limit]
+
+
+def _fetch_lemmy_full(result: UnifiedResult, char_limit: int) -> str:
+    """
+    Post body (already have it) + top-level comments, fetched via the
+    same instance's comment-list endpoint.
+    """
+    if not result.result_id:
+        return (result.text or "")[:char_limit]
+
+    # result.url is an ap_id like https://lemmy.world/post/12345 -- derive
+    # the instance host from it so we hit the same instance the post lives on.
+    from urllib.parse import urlparse
+    host = urlparse(result.url).netloc or "lemmy.world"
+
+    api_url = f"https://{host}/api/v3/comment/list"
+    params = {"post_id": result.result_id, "sort": "Top", "limit": 20}
+    headers = {"User-Agent": "osint-pipeline/0.1 (research use)"}
+
+    parts = [result.text or ""]
+    try:
+        resp = requests.get(api_url, params=params, headers=headers, timeout=DEFAULT_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+        for item in data.get("comments", []):
+            body = item.get("comment", {}).get("content", "")
+            if body:
+                parts.append(body)
+    except Exception:
+        pass  # comments are a bonus; still return the post body if this fails
+
+    return "\n---\n".join(parts)[:char_limit]
+
+
 _FETCHERS = {
     "reddit": _fetch_reddit_full,
     "wikipedia": _fetch_wikipedia_full,
@@ -159,6 +220,8 @@ _FETCHERS = {
     "stackexchange": _fetch_stackexchange_full,
     "mastodon": _fetch_mastodon_full,
     "youtube": _fetch_youtube_full,
+    "bluesky": _fetch_bluesky_full,
+    "lemmy": _fetch_lemmy_full,
 }
 
 
